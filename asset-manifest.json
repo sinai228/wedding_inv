@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.533d645e.css",
+    "main.js": "/wedding/static/js/main.69ab5905.js",
+    "static/js/787.5c44c47e.chunk.js": "/wedding/static/js/787.5c44c47e.chunk.js",
+    "static/media/Jeongnimsaji-R.ttf": "/wedding/static/media/Jeongnimsaji-R.91bfdab46b3e54b3b405.ttf",
+    "static/media/강원교육현옥샘.ttf": "/wedding/static/media/강원교육현옥샘.47b6669012a754bd06ac.ttf",
+    "static/media/Allura-Regular.ttf": "/wedding/static/media/Allura-Regular.9429cde4d80d03c85860.ttf",
+    "static/media/bb1.png": "/wedding/static/media/bb1.e7685eb7a111e6977e53.png",
+    "static/media/main.png": "/wedding/static/media/main.95d2b641468773666e6f.png",
+    "static/media/bbb.png": "/wedding/static/media/bbb.74f70ca82e4508b02268.png",
+    "static/media/bb.png": "/wedding/static/media/bb.1a040b2634c1d0b93ba6.png",
+    "static/media/calendar.png": "/wedding/static/media/calendar.b915655a39d4b9bd6bf0.png",
+    "static/media/Zeyada-Regular.ttf": "/wedding/static/media/Zeyada-Regular.fb9bab9d2c0d16e69cdd.ttf",
+    "index.html": "/wedding/index.html",
+    "main.533d645e.css.map": "/wedding/static/css/main.533d645e.css.map",
+    "main.69ab5905.js.map": "/wedding/static/js/main.69ab5905.js.map",
+    "787.5c44c47e.chunk.js.map": "/wedding/static/js/787.5c44c47e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.533d645e.css",
+    "static/js/main.69ab5905.js"
+  ]
+}
