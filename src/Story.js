@@ -61,8 +61,8 @@ function Story() {
         </button> */}
 
             <select name="lang" id="lang">
-              <option value="en-US">ENG</option>
-              <option value="kr">KOR</option>
+              <option value="en-US">{t('buttons.en')}</option>
+              <option value="kr">{t('buttons.kr')}</option>
             </select>
 
           </ul>
@@ -76,12 +76,12 @@ function Story() {
           }}>
           </div>
 
-          <p>첫인상?</p>
+          <p>{t('story.t1')}</p>
           <div className="side">
             <div className="half">
-              <span className="youngrak">영락: </span> </div>
+              <span className="youngrak">{t('story.he')}: </span> </div>
             <div className="half">
-              <span className="sinai">시내: </span>처음에는 그냥 재미있는 오빠네 싶었어요. 두달간 매일 같은곳에서 공부하느라 자주 마추졌는데 엄청 깍듯이 대해서 친해지기 어려운 사람이구나 했죠.
+              <span className="sinai">{t('story.she')}: </span>처음에는 그냥 재미있는 오빠네 싶었어요. 두달간 매일 같은곳에서 공부하느라 자주 마추졌는데 엄청 깍듯이 대해서 친해지기 어려운 사람이구나 했죠.
              사이로 친해졌어요. </div>
           </div>
           <div>
@@ -96,9 +96,9 @@ function Story() {
               <TimelineContent>
                 <div>08.2021</div>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
               이 달에 주차장에서 처음으로 지나친 기억이 있는데 와 사슴 같은 눈망울을 가진 분이다 라고 생각했죠.
               </div>
               </TimelineContent>
@@ -112,9 +112,9 @@ function Story() {
               <TimelineContent>11.6.21
              <p>오 우리 좀 통하네?</p>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
               함께 공부하던 언니오빠들이 떠나 처음으로 저희 둘이 한 공간에 있게 되었어요.
               한 질문이 그 다음 질문으로 이어지고 거의 6시간을 이야기 하는데 처음으로 오?
               이 오빠가 조금 궁금해지는데? 라는 생각이 들더라구요
@@ -129,9 +129,9 @@ function Story() {
               <TimelineContent>12.17.21
              <p>●●에겐 난 어떤 사람이야?</p>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
               학기가 끝나고 오빠가 불도저처럼 대쉬를 하더라구요. 이 때 많은 상황이 불확실하기도 했고
               연애할 마음이 없었던 저의 마음을 오빠가 살며시 뒤바뀌었어요. 크리스마스 주에 저와 제 친구가 코로나를
               걸렸을때도 맨날 찾아봐 병간호를 해 주는 오빠의 노력에 저의 마음을 확인하게 됐습니다.
@@ -144,9 +144,9 @@ function Story() {
                 <TimelineDot />
               </TimelineSeparator>
               <TimelineContent>01.05.22<div className="half">
-                <span className="youngrak">영락: </span>우리 만나자</div>
+                <span className="youngrak">{t('story.he')}: </span>우리 만나자</div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
               응 그래!
               </div></TimelineContent>
 
@@ -162,9 +162,9 @@ function Story() {
               <TimelineContent>04.30.22
 
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
                 열혈하게 공부하고 땀내고 일하고 했던 4년이 모두 끝이 나 졸업을 함꼐 했죠. 제일
                 힘들었던 학기동안 힘이 되주었던 오빠와 졸업을 함꼐하고 서로의 취준기간에
                 보탬이 되었던 은혜로웠던 시간들이었어요. 제 첫 직장이 다른 주인줄 알았을떄 오빠가
@@ -180,9 +180,9 @@ function Story() {
               <TimelineContent>12.28.22
               <p>한 발자국 더 가까이...!</p>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
                 열혈하게 공부하고 땀내고 일하고 했던 4년이 모두 끝이 나 졸업을 함꼐 했죠. 제일
                 힘들었던 학기동안 힘이 되주었던 오빠와 졸업을 함꼐하고 서로의 취준기간에
                 보탬이 되었던 은혜로웠던 시간들이었어요. 제 첫 직장이 다른 주인줄 알았을떄 오빠가
@@ -197,9 +197,9 @@ function Story() {
               </TimelineSeparator>
               <TimelineContent>03.23.23
               <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내:</span> 우연찮게 오빠의 가족이 미국에 놀러와 한 끼를 함께 할 시간이 있었어요.
+                  <span className="sinai">{t('story.she')}:</span> 우연찮게 오빠의 가족이 미국에 놀러와 한 끼를 함께 할 시간이 있었어요.
                 만나고 집을 돌아왔을때 아 결혼해도 되겠다 라는 생각이 더 크게 들었던 것 같아요
 
               </div>
@@ -215,9 +215,9 @@ function Story() {
               <TimelineContent>summer 2023
              <p>불편함 속에서 찾은 안정</p>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
 
                 </div>
 
@@ -232,9 +232,9 @@ function Story() {
               <TimelineContent>08.2023
              <p>늘어난 우리의 가족</p>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
                 </div>
               </TimelineContent>
             </TimelineItem>
@@ -246,9 +246,9 @@ function Story() {
               <TimelineContent>12.2023
              <p>우리 결혼할까? </p>
                 <div className="half">
-                  <span className="youngrak">영락: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
-                  <span className="sinai">시내: </span>
+                  <span className="sinai">{t('story.she')}: </span>
 
                 </div>
 
