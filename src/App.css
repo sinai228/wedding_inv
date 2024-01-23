@@ -1,38 +1,453 @@
+@font-face {
+  font-family: "Zeyada-Regular";
+  font-weight: normal;
+  src: url("./assets/fonts/Zeyada-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Allura-Regular";
+  font-weight: normal;
+  src: url("./assets/fonts/Allura-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jeongnimsaji-R";
+  font-weight: normal;
+  src: url("./assets/fonts/Jeongnimsaji-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: "강원교육현옥샘";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/강원교육현옥샘.ttf") format("truetype");
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  min-width: 100%;
+ }
+
+.navbar-container {
+  margin-top: calc(100vh - 53px);
+  width: 100%;
+
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 1000ms ease-in-out 10s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+.navbar {
+z-index: 9999;
+  background-color: #ffffff;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* min-height: 100vh; */
+  display: flex;
+  font-size: 2vw;
+  font-weight: 150;
+  scroll-behavior: smooth;
+cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+ width: 100%;
+ /* position: absolute; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border {
+  /* border: 1px solid #f5f5f5; */
+  height: 100vh;
+   /* margin:  16px; */
 }
+
+.border p{
+   font-family: "Jeongnimsaji-R";
+   color: rgb(255, 255, 255);
+   /* position: absolute; */
+}
+
+.padding-50 {
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  /* display: flex; */
+  /* border: 1px solid #e7e7e7; */
+  /* background-color: #ffffff; */
+}
+
+li {
+  float: left;
+}
+
+li  {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 4px 3vw;
+  text-decoration: none;
+}
+
+li :hover:not(.active) {
+  /* background-color: #ddd; */
+  color: #666;
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+}
+
+li .active {
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+}
+
+a:visited {
+ text-decoration: white;
+ text-decoration-line: none;
+ color: #666;
+ text-emphasis-color: #666;
+}
+
+.cards {
+  display: 'flex';
+   justify-content: center;
+  align-items: center
+;}
+.card {
+  margin: auto;
+ ;}
+
+.thedate {
+  font-size: 15vw;
+  align-items: center;
+  font-family: 'Srisakdi', cursive;
+  opacity: 50%;
+  rotate: 38;
+  margin-top: 30vh;
+  color: whitesmoke;
+}
+
+
+.side {
+
+ flex-direction: row;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    justify-content: center;
+   align-items: center;
+   font-family: "Jeongnimsaji-R";}
+
+
+ .babysbreath img {
+  max-width: 100px;
+  width: 8vh;
+}
+
+.intro {
+  display: block;
+  background-color: #F5F6F3;
+     padding: 10px 50px ;
+    margin: 35px
+
+}
+.intro p {
+  font-family: 'Jeongnimsaji-R';
+  font-stretch: 5;
+  text-size-adjust: auto;
+  letter-spacing: 1.5px;
+  padding: 10px 1vw;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  color: rgb(93, 97, 93);
+  font-size: 1vw;
+}
+.Dday {
+  font-weight: 800;
+  font-size: 4vw;
+  color: #666;
+  font-style: bold;
+  font-family: monospace;
+  opacity: 0.7;
+  z-index: 9999;
+  padding: 30px;
+}
+
+.Dday span{
+   font-weight: 100;
+   font-size: 2.5vw;
+  color: #666;
+  font-family: monospace;
+  opacity: 0.7;
+ }
+
+.banner p {
+   font-family: cursive, fantasy;
+  font-style: italic;
+  font-size: 8vw;
+  top: 40px;
+  padding-top: -20px;
+  letter-spacing: 3px;
+  z-index: 100;
+  position: relative;
+}
+
+.gallery {
+   /* display: ; */
+  background-color: #ffffff;
+  /* height: 50vh; */
+  z-index: 0;
+  margin:  0px 1vw  ;
+  font-family: "Zeyada-Regular";
+  font-size: 40px;
+}
+
+.ontop {
+  z-index: 100;
+}
+.nodecor {
+  text-decoration-line: none;
+}
+  /*************************
+   Center slide text vertically
+   **************************/
+.swiper {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+   margin: -19px 5vw  5vw 5vw ;
+     background: rgb(255, 255, 255);
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: 5px
+}
+
+.mySwiper .swiper-slide {
+  width: 15%;
+  height: 100%;
+  opacity: 0.4;
+
+}
+
+ .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    border-radius: 2px;
+}
+
+.story {
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  margin: 15vw;
+}
+
+.readmore {
+  background-color: transparent;
+   border-radius: 4px;
+  padding: 3px;
+  border: 3px gray;
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  margin: 3px;
+}
+
+.account {
+  display: block;
+  background-color: #ecf1e3;
+  padding: 4vh 0 ;
+  text-align: center;
+}
+.MuiAccordionSummary-content {
+  justify-content: center;
+  margin-left:20px;
+}
+.acc {
+  width: 75vw;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+
+justify-content: center !important;
+  font-family: "Jeongnimsaji-R";
+}
+
+.accdetail {
+  background-color: white;
+  border-radius: 4px;
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  margin: 10px;
+  float: center;
+ }
+
+ .acctext {
+  background-color: white;
+  border-radius: 4px;
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  margin: 10px;
+  float: left;
+ }
+
+.acccopy {
+  background-color: white;
+  border-radius: 4px;
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  border: 0.4px dotted gray;
+  margin: 0 5px;
+  padding: 0px 8px;
+align-items:  right;
+float: right;
+}
+
+.verse {
+  display: block;
+  background-color: #ffffff;
+  padding: 50px;
+
+}
+.verse p {
+  font-family: 'Jeongnimsaji-R';
+  font-stretch: 5;
+  text-size-adjust: auto;
+  letter-spacing: 1.5px;
+  padding: 5px 15vw;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  color: rgb(93, 97, 93);
+  font-size: 1.9vh;
+}
+.header {
+ font-family: "Jeongnimsaji-R";
+ font-size: 3vw;
+ }
+
+ .padding-top {
+padding-top: 50px;
+ }
+.divider {
+  text-decoration: #666 underline dotted;
+  color: #F5F6F3;
+  opacity: 40;
+  padding-bottom: 0px;
+}
+.calendar {
+  width: 65vw;
+  padding: 5px;
+}
+
+.location {
+  justify-content: center;
+   align-items: center;
+  background-color: #F5F6F3;
+  padding: 40px;
+ }
+
+
+
+.location p{
+   font-family: "Jeongnimsaji-R";
+   font-size: 2.5vw;
+}
+
+.buttons{
+  /* flex-direction: row; */
+  display: flex;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+     justify-content: center;
+   align-items: center;
+
+}
+
+.copy {
+  background-color: white;
+  border-radius: 4px;
+  padding: 3vw;
+  border: 3px gray;
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  margin: 10px;
+     font-size: 2.5vw;
+
+}
+
+button {
+  background-color: white;
+  border-radius: 4px;
+  padding: 3vw;
+  border: 3px gray;
+  font-family: "Jeongnimsaji-R";
+  color: #666;
+  margin: 10px;
+     font-size: 2.5vw;
+
+}
+
+

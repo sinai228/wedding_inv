@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Zeyada-Regular";
+  font-weight: normal;
+  src: url("./assets/fonts/Zeyada-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Allura-Regular";
+  font-weight: normal;
+  src: url("./assets/fonts/Allura-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Jeongnimsaji-R";
+  font-weight: normal;
+  src: url("./assets/fonts/Jeongnimsaji-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: "강원교육현옥샘";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/강원교육현옥샘.ttf") format("truetype");
+}
+
+.Story {
+  text-align: center;
+  flex-direction: column;
+}
+
+.body p {
+    font-family: "강원교육현옥샘";
+font-size: 3vw;
+}
+
+.side {
+  font-size: 1.5vw;
+}
+
+.half {
+  flex-direction: row;
+  width: 25vw;
+  font-size: 1.5vw;
+}
+
+.half .sinai {
+   color: rgb(252, 127, 235)
+}
+.half .youngrak {
+   color: rgb(84, 168, 236)
+}
+
+select {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 4px 3vw;
+  text-decoration: none;
+  font-size: 5px;
+  width: min-content;
+}
