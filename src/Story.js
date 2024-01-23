@@ -85,7 +85,7 @@ function Story() {
              사이로 친해졌어요. </div>
           </div>
           <div>
-            <p>how it all started ...</p>
+            <p>{t('story.t2')}</p>
           </div>
           <Timeline position="alternate" >
             <TimelineItem>
@@ -110,7 +110,7 @@ function Story() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>11.6.21
-             <p>오 우리 좀 통하네?</p>
+             <p>{t('story.t3')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
@@ -127,7 +127,7 @@ function Story() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>12.17.21
-             <p>●●에겐 난 어떤 사람이야?</p>
+             <p>{t('story.t4')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
@@ -144,7 +144,7 @@ function Story() {
                 <TimelineDot />
               </TimelineSeparator>
               <TimelineContent>01.05.22<div className="half">
-                <span className="youngrak">{t('story.he')}: </span>우리 만나자</div>
+                <span className="youngrak">{t('story.he')}: </span>{t('story.t4')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
               응 그래!
@@ -152,7 +152,7 @@ function Story() {
 
             </TimelineItem>
             <div>
-              <p>cc서부터 롱디</p>
+              <p>{t('story.t5')}</p>
             </div>
             <TimelineItem>
               <TimelineSeparator>
@@ -178,7 +178,7 @@ function Story() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>12.28.22
-              <p>한 발자국 더 가까이...!</p>
+              <p></p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
@@ -213,7 +213,7 @@ function Story() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>summer 2023
-             <p>불편함 속에서 찾은 안정</p>
+             <p>{t('story.t8')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span> </div>
                 <div className="half">
@@ -255,13 +255,55 @@ function Story() {
               </TimelineContent>
 
             </TimelineItem>
+            <TimelineItem>
+              <TimelineSeparator>
+                <TimelineDot variant="outlined" />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent>08.2023
+             <p>{t('story.t9')}</p>
+                <div className="half">
+                  <span className="youngrak">{t('story.he')}: </span> </div>
+                <div className="half">
+                  <span className="sinai">{t('story.she')}: </span>
+                </div>
+              </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineSeparator>
+                <TimelineDot variant="outlined" />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent>1.2024
+             <p>{t('story.t10')} </p>
+                <div className="half">
+                  <span className="youngrak">{t('story.he')}: </span> </div>
+                <div className="half">
+                  <span className="sinai">{t('story.she')}: </span>
+
+                </div>
+
+              </TimelineContent>
+
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineSeparator>
+                <TimelineDot variant="outlined" />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent>05.2024
+             <p>{t('story.t11')}</p>
+                <div className="half">
+                  <span className="youngrak">{t('story.he')}: </span> </div>
+                <div className="half">
+                  <span className="sinai">{t('story.she')}: </span>
+                </div>
+              </TimelineContent>
+            </TimelineItem>
           </Timeline>
-          <div>
-            <p>the move</p>
-          </div>
-          <div>
-            <p>the proposal</p>
-          </div>
+
+
           <div>
             <p>start!</p>
           </div>

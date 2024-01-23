@@ -330,7 +330,7 @@ export default function App() {
         <Fade bottom delay={700}>
           <p className="header">
             {t('header.details')}</p>
-          <div className="divider"> ______________________________________________________________ </div>
+          {/* <div className="divider"> ______________________________________________________________ </div> */}
           <img className="calendar" src={calendar} alt="cal" />
           <p> {t('dday')}{diff}{t('dday2')}</p>
           {/* <p>♥︎</p> */}
