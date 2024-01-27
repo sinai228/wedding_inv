@@ -79,10 +79,12 @@ function Story() {
           <p>{t('story.t1')}</p>
           <div className="side">
             <div className="half">
-              <span className="youngrak">{t('story.he')}: </span> </div>
+              <span className="youngrak">{t('story.he')}: </span>
+              {t('story.h1')}</div>
             <div className="half">
-              <span className="sinai">{t('story.she')}: </span>처음에는 그냥 재미있는 오빠네 싶었어요. 두달간 매일 같은곳에서 공부하느라 자주 마추졌는데 엄청 깍듯이 대해서 친해지기 어려운 사람이구나 했죠.
-             사이로 친해졌어요. </div>
+              <span className="sinai">{t('story.she')}: </span>
+              {t('story.s1')}
+            </div>
           </div>
           <div>
             <p>{t('story.t2')}</p>
@@ -96,11 +98,12 @@ function Story() {
               <TimelineContent>
                 <div>08.2021</div>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h2')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-              이 달에 주차장에서 처음으로 지나친 기억이 있는데 와 사슴 같은 눈망울을 가진 분이다 라고 생각했죠.
-              </div>
+                  {t('story.s2')}
+                </div>
               </TimelineContent>
 
             </TimelineItem>
