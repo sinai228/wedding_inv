@@ -20,14 +20,28 @@
   src: url("./assets/fonts/강원교육현옥샘.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'OG_Renaissance_Secret-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/OG_Renaissance_Secret-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OG_Renaissance_Secret-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .Story {
   text-align: center;
   flex-direction: column;
+   font-family: "InkLipquid";
 }
 
 .body p {
-    font-family: "강원교육현옥샘";
-font-size: 3vw;
+    font-family: "InkLipquid";
+  font-size: 2vw;
 }
 
 .side {

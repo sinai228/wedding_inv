@@ -115,13 +115,13 @@ function Story() {
               <TimelineContent>11.6.21
              <p>{t('story.t3')}</p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h3')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-              함께 공부하던 언니오빠들이 떠나 처음으로 저희 둘이 한 공간에 있게 되었어요.
-              한 질문이 그 다음 질문으로 이어지고 거의 6시간을 이야기 하는데 처음으로 오?
-              이 오빠가 조금 궁금해지는데? 라는 생각이 들더라구요
-              </div>
+                  {t('story.s3')}
+
+                </div>
               </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -132,47 +132,44 @@ function Story() {
               <TimelineContent>12.17.21
              <p>{t('story.t4')}</p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h4')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-              학기가 끝나고 오빠가 불도저처럼 대쉬를 하더라구요. 이 때 많은 상황이 불확실하기도 했고
-              연애할 마음이 없었던 저의 마음을 오빠가 살며시 뒤바뀌었어요. 크리스마스 주에 저와 제 친구가 코로나를
-              걸렸을때도 맨날 찾아봐 병간호를 해 주는 오빠의 노력에 저의 마음을 확인하게 됐습니다.
-              </div>
+                  {t('story.s4')}
+                </div>
               </TimelineContent>
 
             </TimelineItem>
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineDot />
+                <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>01.05.22<div className="half">
-                <span className="youngrak">{t('story.he')}: </span>{t('story.t4')}</div>
+              <TimelineContent>01.05.22  <p>{t('story.t5')}</p><div className="half">
+                <span className="youngrak">{t('story.he')}: </span>
+                {t('story.h5')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-              응 그래!
-              </div></TimelineContent>
+                  {t('story.s5')}
+                </div></TimelineContent>
 
             </TimelineItem>
-            <div>
-              <p>{t('story.t5')}</p>
-            </div>
+
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>04.30.22
-
+            <p>{t('story.t6')}</p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h6')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-                열혈하게 공부하고 땀내고 일하고 했던 4년이 모두 끝이 나 졸업을 함꼐 했죠. 제일
-                힘들었던 학기동안 힘이 되주었던 오빠와 졸업을 함꼐하고 서로의 취준기간에
-                보탬이 되었던 은혜로웠던 시간들이었어요. 제 첫 직장이 다른 주인줄 알았을떄 오빠가
-                바로 구글지도를 켜 얼마나 걸리나 찾아보던 오빠의 모습에 한 번 더 반했어요.
-              </div>
+                  {t('story.s6')}
+                </div>
               </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -180,17 +177,15 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>12.28.22
-              <p></p>
+              <TimelineContent>7.4.22  <p>{t('story.t7')}</p>
+                <p></p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h7')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-                열혈하게 공부하고 땀내고 일하고 했던 4년이 모두 끝이 나 졸업을 함꼐 했죠. 제일
-                힘들었던 학기동안 힘이 되주었던 오빠와 졸업을 함꼐하고 서로의 취준기간에
-                보탬이 되었던 은혜로웠던 시간들이었어요. 제 첫 직장이 다른 주인줄 알았을떄 오빠가
-                바로 구글지도를 켜 얼마나 걸리나 찾아보던 오빠의 모습에 한 번 더 반했어요.
-              </div>
+                  {t('story.s7')}
+                </div>
               </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -198,30 +193,13 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>03.23.23
-              <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+              <TimelineContent>7-12.22 <p>{t('story.t8')}</p>
                 <div className="half">
-                  <span className="sinai">{t('story.she')}:</span> 우연찮게 오빠의 가족이 미국에 놀러와 한 끼를 함께 할 시간이 있었어요.
-                만나고 집을 돌아왔을때 아 결혼해도 되겠다 라는 생각이 더 크게 들었던 것 같아요
-
-              </div>
-
-              </TimelineContent>
-
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineDot variant="outlined" />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>summer 2023
-             <p>{t('story.t8')}</p>
-                <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}:
+                  </span> {t('story.h8')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-
+                  {t('story.s8')}
                 </div>
 
               </TimelineContent>
@@ -232,27 +210,13 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>08.2023
-             <p>늘어난 우리의 가족</p>
+              <TimelineContent>12.28.22 <p>{t('story.t9')}</p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
-                <div className="half">
-                  <span className="sinai">{t('story.she')}: </span>
-                </div>
-              </TimelineContent>
-            </TimelineItem>
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineDot variant="outlined" />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>12.2023
-             <p>우리 결혼할까? </p>
-                <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}:    </span>
+                  {t('story.h8')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
-
+                  {t('story.s9')}
                 </div>
 
               </TimelineContent>
@@ -263,12 +227,13 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>08.2023
-             <p>{t('story.t9')}</p>
+              <TimelineContent>08.04.2023 <p>{t('story.t10')}</p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h10')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
+                  {t('story.s10')}
                 </div>
               </TimelineContent>
             </TimelineItem>
@@ -277,36 +242,35 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>1.2024
-             <p>{t('story.t10')} </p>
-                <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
-                <div className="half">
-                  <span className="sinai">{t('story.she')}: </span>
-
-                </div>
-
-              </TimelineContent>
-
-            </TimelineItem>
-
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineDot variant="outlined" />
-                <TimelineConnector />
-              </TimelineSeparator>
-              <TimelineContent>05.2024
+              <TimelineContent>01.19.2023
              <p>{t('story.t11')}</p>
                 <div className="half">
-                  <span className="youngrak">{t('story.he')}: </span> </div>
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h11')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
+                  {t('story.s11')}
                 </div>
+
+              </TimelineContent>
+
+            </TimelineItem>
+            <TimelineItem>
+              <TimelineSeparator>
+                <TimelineDot variant="outlined" />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent>05.04.2023
+             <p>{t('story.t12')}</p>
+                <div className="half">
+                  <span className="youngrak">{t('story.he')}: </span>
+                  {t('story.h12')} </div>
+                <div className="half">
+                  <span className="sinai">{t('story.she')}: </span>
+                  {t('story.h12')}</div>
               </TimelineContent>
             </TimelineItem>
           </Timeline>
-
-
           <div>
             <p>start!</p>
           </div>
