@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 // import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 // import { BrowserRouter } from 'react-router-dom';
 import AspectRatio from '@mui/joy/AspectRatio';
@@ -15,6 +15,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useTranslation } from "react-i18next";
 import MetaTags from 'react-meta-tags';
 
+import LanguageIcon from '@mui/icons-material/Language';
+
 import './App.css';
 import ThumbGallery from './components/Thumb.js';
 import Navbar from './components/Header.js';
@@ -28,12 +30,26 @@ import ornament3 from './assets/bb1.png';
 import calendar from './assets/calendar.png';
 
 
+
+
 export default function App() {
   // class Wedding extends React.Component {
   // render() {
   // SwiperCore.use([Navigation, Thumbs])
   // const [thumbsSwiper, setThumbsSwiper] = useState(null);
   // const [thumbs, setThumbs] = useState(null);
+  // const [lang, setLang] = useState('kr');
+
+  // const toggle = () => setLang(lang => 'kr');
+
+  const [showButton, setShowButton] = useState(true);
+
+  const toggleButton = () => {
+    setShowButton(!showButton);
+  };
+  // useEffect(() => {
+  //   console.log('Do something after counter has changed', counter);
+  // }, [counter]);
 
   // const images = [
   //   "https://swiperjs.com/demos/images/nature-10.jpg",
@@ -56,6 +72,7 @@ export default function App() {
         <meta property="og:title" content="MyApp" />
         <meta property="og:image" content="path/to/image.jpg" />
       </MetaTags>
+
       {/* <img className="main" src={main} alt="image" /> */}
       <div id="home" className="border" style={{
         backgroundImage: `url(${main})`
@@ -65,9 +82,8 @@ export default function App() {
           <p>  {t('name.groom')} | {t('name.bride')}
           </p>
         </div>
-        <text className="thedate">8th August</text>
+        <text className="thedate"> May 4th</text>
       </div>
-
       <header className="navbar">
         <Navbar></Navbar>
       </header>
@@ -75,7 +91,14 @@ export default function App() {
       <div className="babysbreath">
         <img src={ornament2} alt="f0" />
       </div> */}
-
+      <div className="lang">
+        {!showButton && <button onClick={() => { i18n.changeLanguage('kr'); toggleButton(); }}>
+          <LanguageIcon color="primary" fontSize="small"  ></LanguageIcon>
+        </button>}
+        {showButton && <button onClick={() => { i18n.changeLanguage('en'); toggleButton(); }}>
+          <LanguageIcon fontSize="small"  ></LanguageIcon>
+        </button>}
+      </div>
       <div className="cards">
         <Card className="card"
           orientation="horizontal"
@@ -97,12 +120,9 @@ export default function App() {
               />
             </AspectRatio>
           </CardOverflow>
-          <Fade bottom delay={1000}>
+          <Fade bottom delay={600}>
 
             <CardContent>
-              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left">
-                {t('name.groom')}
-              </Typography>
               <div className="side">
                 <Typography level="body-sm" fontSize="3.5vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.groomp')} </Typography>
                 <Typography level="body-sm" fontSize="2.5vw"
@@ -110,6 +130,9 @@ export default function App() {
                   fontFamily="Jeongnimsaji-R"
                 >  {t('name.3')} </Typography>
               </div>
+              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="Jeongnimsaji-R">
+                {t('name.groom')}
+              </Typography>
             </CardContent>
             <CardOverflow
               variant="soft"
@@ -150,7 +173,7 @@ export default function App() {
               />
             </AspectRatio>
           </CardOverflow>
-          <Fade bottom delay={1000}>
+          <Fade bottom delay={600}>
             <CardContent>
 
               <div className="side">
@@ -158,9 +181,9 @@ export default function App() {
                 <Typography level="body-sm" fontSize="2.5vw"
                   textAlign="left"
                   fontFamily="Jeongnimsaji-R"
-                > 의 차녀 </Typography>
+                > {t('name.2')} </Typography>
               </div>
-              <Typography fontWeight="md" textColor="text.secondary" fontSize="3.5vw" textAlign="left" fontFamily="Jeongnimsaji-R">
+              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="Jeongnimsaji-R">
                 {t('name.bride')}
               </Typography>
             </CardContent>
@@ -190,7 +213,7 @@ export default function App() {
         <div className="babysbreath">
           <img src={ornament} alt="f1" />
         </div>
-        <Fade bottom delay={1000}>
+        <Fade bottom delay={600}>
           <p className="introtext">{t('introtext.1')}</p>
           <p>{t('introtext.2')} </p>
           <p>{t('introtext.3')}</p>
@@ -202,7 +225,7 @@ export default function App() {
         </div>
       </div>
 
-      <Fade bottom delay={1000}>
+      <Fade bottom delay={600}>
         <div id="home" className="border" style={{
           backgroundImage: `url(${main})`, height: '400px'
         }}>
@@ -338,8 +361,23 @@ export default function App() {
             <img src={ornament} alt="f0" />
           </div>
           <p> {t('date')}</p>
+          <br />
           <p>{t('wed')}</p>
           <p>{t('time')}</p>
+          <p>42693 Dequindre Rd, Troy, MI 48085</p>
+          <div className="buttons">
+            <button className="copy"
+              onClick={() => navigator.clipboard.writeText('42693 Dequindre Rd, Troy, MI 48085')}
+            >
+              {t('buttons.copy')}
+            </button>
+
+            <a href="https://www.google.com/maps/place/Korean+Methodist+Church+of+Detroit/@42.60739,-83.0922078,16.52z/data=!4m6!3m5!1s0x8824c33aef8d50ad:0x9bf673bb297fd077!8m2!3d42.6050043!4d-83.0917879!16s%2Fg%2F1vm_yhqs?entry=ttu" className="visited" rel="noreferrer" target="_blank">
+              <button className="copy">{t('buttons.map')}</button>
+            </a>
+          </div>
+          <p>{t('reception')}</p>
+          <p>{t('time2')}</p>
           <p>42693 Dequindre Rd, Troy, MI 48085</p>
           <div className="buttons">
             <button className="copy"
@@ -359,14 +397,14 @@ export default function App() {
       <footer>
         <div>
           <button className="copy"
-            onClick={() => navigator.clipboard.writeText('htttps://www.ycspwedding.github.io/invite')}
+            onClick={() => navigator.clipboard.writeText('https://sinai228.github.io/wedding/')}
           >
             {t('buttons.copylink')}
           </button></div>
-        <div className="center">
+        {/* <div className="center">
           <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
           <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button>
-        </div>
+        </div> */}
       </footer>
 
     </div >

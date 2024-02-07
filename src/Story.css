@@ -39,6 +39,7 @@
    font-family: "InkLipquid";
 }
 
+
 .body p {
     font-family: "InkLipquid";
   font-size: 2vw;
@@ -48,11 +49,24 @@
   font-size: 1.5vw;
 }
 
+.padding-10 {
+    padding: 20px;
+}
 .half {
   flex-direction: row;
   width: 25vw;
   font-size: 1.5vw;
   padding: 7px;
+}
+
+.reg {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+     font-size: .5rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+
+    /* flex: 1; */
+    /* padding: 6px 10px; */
 }
 
 .half .sinai {
@@ -70,4 +84,17 @@ select {
   text-decoration: none;
   font-size: 5px;
   width: min-content;
+}
+
+.image {
+  width: 100px;
+}
+
+ .lang  button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  padding: none;
+  background-color: transparent !important;
 }

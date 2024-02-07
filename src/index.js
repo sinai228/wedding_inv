@@ -5,6 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Story from "./Story";
+import ToDo from "./ToDo";
 import { I18nextProvider, initReactI18next } from "react-i18next";
 import i18next from "i18next";
 import common_kr from "./translations/kr/common.json";
@@ -34,6 +35,7 @@ root.render(
       <Routes>
         <Route exact path='/' element={<App />} />
         <Route exact path='/story' element={<Story />} />
+        <Route exact path='/todo' element={<ToDo />} />
       </Routes>
     </I18nextProvider >
   </BrowserRouter>

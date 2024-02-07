@@ -61,7 +61,7 @@ const Header = () => {
               smooth={true}
               offset={0}
               duration={750}>Registry</Link></li> */}
-            <li><a href="https://www.zola.com/wedding-registry"
+            <li><a href="https://www.amazon.com/wedding/share/youngraksinai"
               className="visited" rel="noreferrer"
               target="_blank">{t('menu.reg')}</a></li>
             <li><Link activeClass="active"

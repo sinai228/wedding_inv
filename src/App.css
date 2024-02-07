@@ -24,6 +24,7 @@
   text-align: center;
   flex-direction: column;
   /* min-width: 100%; */
+
  }
 
 .navbar-container {
@@ -42,6 +43,15 @@
   animation: 1000ms ease-in-out 10s normal none 1 running fadeInDown;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+ .lang  button{
+ position: fixed;
+    bottom: 0;
+    right: 0;
+  z-index: 9999;
+padding: none;
+   background-color: transparent !important;
 }
 
 
@@ -204,7 +214,7 @@ a:visited {
    font-family: cursive, fantasy;
   font-style: italic;
   font-size: 8vw;
-  top: 40px;
+  top: 3vw;
   padding-top: -20px;
   letter-spacing: 3px;
   z-index: 100;
