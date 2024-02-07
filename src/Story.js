@@ -322,6 +322,7 @@ function Story() {
       {/* <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
       <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button> */}
       <button onClick={() => handleScrollToTop()}>{t('buttons.totop')}</button>
+         <p> Copyright © 2024 Sinai Youngrak. All Rights Reserved</p>
     </div >
   );
 }
