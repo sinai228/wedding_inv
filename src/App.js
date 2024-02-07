@@ -405,6 +405,7 @@ export default function App() {
           <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
           <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button>
         </div> */}
+        <p> Copyright © 2024 Sinai Youngrak. All Rights Reserved</p>
       </footer>
 
     </div >
