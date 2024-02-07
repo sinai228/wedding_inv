@@ -19,6 +19,18 @@
   font-weight: normal;
   src: url("./assets/fonts/강원교육현옥샘.ttf") format("truetype");
 }
+@font-face {
+    font-family: 'iceJaram-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'Handletter';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Handletter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .App {
   text-align: center;
@@ -149,7 +161,8 @@ a:visited {
 .thedate {
   font-size: 15vw;
   align-items: center;
-  font-family: 'Srisakdi', cursive;
+  /*  font-family: 'Srisakdi', cursive;*/
+  font-family: 'iceJaram-Rg'
   opacity: 50%;
   rotate: 38;
   margin-top: 30vh;
@@ -227,7 +240,8 @@ a:visited {
   /* height: 50vh; */
   z-index: 0;
   margin:  0px 1vw  ;
-  font-family: "Zeyada-Regular";
+ /* font-family: "Zeyada-Regular";*/
+    font-family: 'Handletter';
   font-size: 40px;
 }
 
