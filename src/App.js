@@ -61,7 +61,7 @@ export default function App() {
   //   "https://swiperjs.com/demos/images/nature-6.jpg",
   // ];
   var start = moment().format("YYYY-MM-DD");
-  var end = moment('2024-05-28');
+  var end = moment('2024-05-04');
   var diff = Math.round(moment.duration(end.diff(start)).asDays()); // 15.958333333333334;
   const { t, i18n } = useTranslation("common");
 
