@@ -24,6 +24,9 @@ export default function Thumb() {
     "https://swiperjs.com/demos/images/nature-6.jpg",
   ];
 
+  const images = require.context('../../images', true);
+  const imageList = images.keys().map(image => images(image));
+
   return (
     <div className="gallery" >
       {/* <p>we're getting married</p> */}
