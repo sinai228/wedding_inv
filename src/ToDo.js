@@ -89,7 +89,7 @@ function ToDo() {
                   What is the timeline for the day?
         </AccordionSummary>
                 <AccordionDetails>
-               Ceremony will start at 11:30am, reception will be at around 12:45pm-3pm. Please come to the venu at least 30 minutes prior(11 AM) to the start of the ceremony if you'd like to take pictures with the bride!
+               Ceremony will start at 11:30am. After the ceremony, we'll have some group photos, and guests can drive over to the reception place (about 15 minutes away) where lunch will be served around 1pm. Reception will end at 3pm. Please come to the venue at least 30 minutes prior to the official ceremony start time so everyone can get settled before the proceedings begin.
                 </AccordionDetails>
               </Accordion>
               <Accordion>
@@ -122,7 +122,7 @@ function ToDo() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                   Can I bring children?
+                   Am I allowed to bring children?
         </AccordionSummary>
                 <AccordionDetails>
                   If we haven't specifically mentioned it to you, unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! 
@@ -140,7 +140,55 @@ function ToDo() {
                  Semi-formal, just a notch below cocktail. Please wear what looks best on you! (all events will be indoors)
                 </AccordionDetails>
               </Accordion>
+                   <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                    Will the ceremony be held in English?
+                 </AccordionSummary>
+                <AccordionDetails>
+                   Unfortunately, the ceremony will be held in Korean. We invite you all to attend via Youtube, if you don't
+                </AccordionDetails>
+              </Accordion>              
               <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                   Where can I park? 
+                 </AccordionSummary>
+                <AccordionDetails>
+                   You'll have plenty of free parking at the venue, and at the restaurant where reception will be held.
+                </AccordionDetails>
+              </Accordion>  
+                <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                    How do I RSVP?
+                 </AccordionSummary>
+                <AccordionDetails>
+                   We sure hope you'll be able to join us for your special day. Please RSVP by 3/4/24 by letting either the bride/groom know.
+                </AccordionDetails>
+              </Accordion>     
+                     <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1-content"
+                  id="panel1-header"
+                >
+                  I don't think I can make it. Can I attend via online?
+        </AccordionSummary>
+                <AccordionDetails>
+                   Yes, we will be broadcasting the ceremony live via Youtube. Please join us if you're abroad in South Korea, Indonesia, or in any other states in the USA.
+                </AccordionDetails>
+              </Accordion>
+                     <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
@@ -158,37 +206,13 @@ function ToDo() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                   Where can I park? 
-                 </AccordionSummary>
-                <AccordionDetails>
-                   You'll have plenty of parking at the venue, and at the restaurant where reception will be held.
-                </AccordionDetails>
-              </Accordion> 
-              <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2-content"
-                  id="panel2-header"
-                >
                     What if I have dietary restrictions?
                  </AccordionSummary>
                 <AccordionDetails>
                    Please let the bride/groom know.
                 </AccordionDetails>
-              </Accordion>
-                <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2-content"
-                  id="panel2-header"
-                >
-                    How do I RSVP?
-                 </AccordionSummary>
-                <AccordionDetails>
-                   We sure hope you'll be able to join us for your special day. Please RSVP by 3/4/24 by letting either the bride/groom know.
-                </AccordionDetails>
-              </Accordion>     
-                     <Accordion>
+              </Accordion>                
+               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
@@ -199,7 +223,7 @@ function ToDo() {
                 <AccordionDetails>
                    There will be a cash bar at the reception so please plan on bringing cash if you'd like.
                 </AccordionDetails>
-              </Accordion> 
+              </Accordion>     
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
