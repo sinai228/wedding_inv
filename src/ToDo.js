@@ -86,26 +86,10 @@ function ToDo() {
                   aria-controls="panel1-content"
                   id="panel1-header"
                 >
-                  Food
+                  What is the timeline for the day?
         </AccordionSummary>
                 <AccordionDetails>
-                  <div>Korean</div>
-                  <p>BBQ Chicken </p>
-                  <p>Noori Pocha</p>
-                  <p>Birmingham Sushi Cafe</p>
-                  <p>Noori Pocha</p>
-                  <p>Asian Express</p>
-                  <p>Noble Fish</p>
-                  <p>Sushi Hana</p>
-                  <div>
-                    Other
-                  </div>
-                  <p>Detroit Shipping Company</p>
-                  <p>Tienda Mexicana</p>
-                  <p>Satay House</p>
-                  <p>Frita Batidos</p>
-                  <p>Marsa</p>
-
+               Ceremony will start at 11:30am, reception will be at around 12:45pm-3pm. Please come to the venu at least 30 minutes prior(11 AM) to the start of the ceremony if you'd like to take pictures with the bride!
                 </AccordionDetails>
               </Accordion>
               <Accordion>
@@ -114,10 +98,141 @@ function ToDo() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                  Places
+                   What is the dress code?
         </AccordionSummary>
                 <AccordionDetails>
-                  <div>
+                 Semi-formal Please wear what looks best on you!
+                </AccordionDetails>
+              </Accordion>
+               <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                   Can I bring a plus one?
+        </AccordionSummary>
+                <AccordionDetails>
+                  Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! We’re looking forward to celebrating with you soon, though!
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                   Can I bring children?
+        </AccordionSummary>
+                <AccordionDetails>
+                  If we haven't specifically mentioned it to you, unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! 
+                </AccordionDetails>
+              </Accordion>
+                    <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                   What is the dress code?
+        </AccordionSummary>
+                <AccordionDetails>
+                 Semi-formal, just a notch below cocktail. Please wear what looks best on you! (all events will be indoors)
+                </AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                  Will food be served?
+                 </AccordionSummary>
+                <AccordionDetails>
+                  Yes, lunch will be served from 1pm. Please eat breakfast before you come, so you don't end up hangry
+                 </AccordionDetails>
+              </Accordion> 
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                   Where can I park? 
+                 </AccordionSummary>
+                <AccordionDetails>
+                   You'll have plenty of parking at the venue, and at the restaurant where reception will be held.
+                </AccordionDetails>
+              </Accordion> 
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                    What if I have dietary restrictions?
+                 </AccordionSummary>
+                <AccordionDetails>
+                   Please let the bride/groom know.
+                </AccordionDetails>
+              </Accordion>
+                <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                    How do I RSVP?
+                 </AccordionSummary>
+                <AccordionDetails>
+                   We sure hope you'll be able to join us for your special day. Please RSVP by 3/4/24 by letting either the bride/groom know.
+                </AccordionDetails>
+              </Accordion>     
+                     <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                     Is it an open bar?
+                 </AccordionSummary>
+                <AccordionDetails>
+                   There will be a cash bar at the reception so please plan on bringing cash if you'd like.
+                </AccordionDetails>
+              </Accordion> 
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel3-content"
+                  id="panel3-header"
+                >
+                  Any recommendations for some things to do before/after the wedding?
+        </AccordionSummary>
+                <AccordionDetails>
+                    <div>Cafe</div>
+                  <p>La Ventana Cafe</p>
+                  <p>White Wolf Pattiesierre</p>
+                  <p>Tous Les Jours</p>
+                  <p>Cannelle Patisserie</p>
+                  <p>Drifter Coffee</p>
+                  <p>Kresge Court</p>
+                  <p>Gathering Coffee Co.</p>
+                  <p>The Congregation</p>
+                  <p>Premium Matcha Cafe Maiko</p>
+                  <div>Restaurants</div>
+                  <p>BBQ Chicken </p>
+                  <p>Noori Pocha</p>
+                  <p>Birmingham Sushi Cafe</p>
+                  <p>Noori Pocha</p>
+                  <p>Asian Express</p>
+                  <p>Noble Fish</p>
+                  <p>Sushi Hana</p> 
+                  <p>Detroit Shipping Company</p>
+                  <p>Tienda Mexicana</p>
+                  <p>Satay House</p>
+                  <p>Frita Batidos</p>
+                  <p>Marsa</p>
+                   <div>
                     Downtown
                   </div>
                   <p>Eastern Market</p>
@@ -136,27 +251,6 @@ function ToDo() {
                   <p>IKEA</p>
                   <p>Somerset Collection</p>
                   <p>Greater Lakes Outlet</p>
-                </AccordionDetails>
-              </Accordion>
-              <Accordion defaultExpanded>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel3-content"
-                  id="panel3-header"
-                >
-                  Cafe
-        </AccordionSummary>
-                <AccordionDetails>
-                  <p>La Ventana Cafe</p>
-                  <p>White Wolf Pattiesierre</p>
-                  <p>Tous Les Jours</p>
-                  <p>Cannelle Patisserie</p>
-                  <p>Drifter Coffee</p>
-                  <p>Kresge Court</p>
-                  <p>Gathering Coffee Co.</p>
-                  <p>The Congregation</p>
-                  <p>Premium Matcha Cafe Maiko</p>
-
                 </AccordionDetails>
                 <AccordionActions>
                   <Button>Cancel</Button>
