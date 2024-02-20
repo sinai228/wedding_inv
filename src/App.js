@@ -27,7 +27,11 @@ import main from './assets/main.png';
 import ornament from './assets/bb.png';
 import ornament2 from './assets/bbb.png';
 import ornament3 from './assets/bb1.png';
-import calendar from './assets/calendar.png';
+// import calendar from './assets/calendar.png';
+import calendar from './assets/date.png';
+import bride from './assets/bride.jpg';
+import groom from './assets/groom.jpg';
+import middle from './assets/middle.jpg';
 
 
 
@@ -113,8 +117,7 @@ export default function App() {
           <CardOverflow >
             <AspectRatio ratio="1" sx={{ width: "25vw", padding: 0.5, borderRadius: 5 }}>
               <img
-                src="https://images.unsplash.com/photo-1507833423370-a126b89d394b?auto=format&fit=crop&w=90"
-                srcSet="https://images.unsplash.com/photo-1507833423370-a126b89d394b?auto=format&fit=crop&w=90&dpr=2 2x"
+                src={bride}
                 loading="lazy"
                 alt="p1"
               />
@@ -166,8 +169,7 @@ export default function App() {
           <CardOverflow>
             <AspectRatio ratio="1" sx={{ width: "25vw", padding: 0.5, borderRadius: 5 }}>
               <img
-                src="https://images.unsplash.com/photo-1507833423370-a126b89d394b?auto=format&fit=crop&w=90"
-                srcSet="https://images.unsplash.com/photo-1507833423370-a126b89d394b?auto=format&fit=crop&w=90&dpr=2 2x"
+                src={groom}
                 loading="lazy"
                 alt="p2"
               />
@@ -226,8 +228,8 @@ export default function App() {
       </div>
 
       <Fade bottom delay={600}>
-        <div id="home" className="border" style={{
-          backgroundImage: `url(${main})`, height: '400px'
+        <div id="home" className="middle_img" style={{
+          backgroundImage: `url(${middle})`, height: '400px'
         }}>
         </div>
         <div className="babysbreath padding-50">
@@ -362,7 +364,7 @@ export default function App() {
           </div>
           <p> {t('date')}</p>
           <br />
-          <p>{t('wed')}</p>
+          <p>{t('wed')} + {t('reception')}</p>
           <p>{t('time')}</p>
           <p>42693 Dequindre Rd, Troy, MI 48085</p>
           <div className="buttons">
@@ -371,15 +373,19 @@ export default function App() {
             >
               {t('buttons.copy')}
             </button>
-
+            {/* <button className="copy"
+              onClick={() => navigator.clipboard.writeText('42693 Dequindre Rd, Troy, MI 48085')}
+            >
+              {t('buttons.copy')}
+            </button> */}
             <a href="https://www.google.com/maps/place/Korean+Methodist+Church+of+Detroit/@42.60739,-83.0922078,16.52z/data=!4m6!3m5!1s0x8824c33aef8d50ad:0x9bf673bb297fd077!8m2!3d42.6050043!4d-83.0917879!16s%2Fg%2F1vm_yhqs?entry=ttu" className="visited" rel="noreferrer" target="_blank">
               <button className="copy">{t('buttons.map')}</button>
             </a>
           </div>
-          <p>{t('reception')}</p>
-          <p>{t('time2')}</p>
-          <p>42693 Dequindre Rd, Troy, MI 48085</p>
-          <div className="buttons">
+          {/* <p>{t('reception')}</p> */}
+          {/* <p>{t('time2')}</p> */}
+          {/* <p>42693 Dequindre Rd, Troy, MI 48085</p> */}
+          {/* <div className="buttons">
             <button className="copy"
               onClick={() => navigator.clipboard.writeText('42693 Dequindre Rd, Troy, MI 48085')}
             >
@@ -389,7 +395,7 @@ export default function App() {
             <a href="https://www.google.com/maps/place/Korean+Methodist+Church+of+Detroit/@42.60739,-83.0922078,16.52z/data=!4m6!3m5!1s0x8824c33aef8d50ad:0x9bf673bb297fd077!8m2!3d42.6050043!4d-83.0917879!16s%2Fg%2F1vm_yhqs?entry=ttu" className="visited" rel="noreferrer" target="_blank">
               <button className="copy">{t('buttons.map')}</button>
             </a>
-          </div>
+          </div> */}
 
         </Fade>
       </div>

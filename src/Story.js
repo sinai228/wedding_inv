@@ -12,7 +12,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 
 import LanguageIcon from '@mui/icons-material/Language';
 
-import main from './assets/main.png';
+import main from './assets/story.png';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 
@@ -322,7 +322,10 @@ function Story() {
       {/* <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
       <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button> */}
       <button onClick={() => handleScrollToTop()}>{t('buttons.totop')}</button>
-         <p> Copyright © 2024 Sinai Youngrak. All Rights Reserved</p>
+      <footer>
+        <p> Copyright © 2024 Sinai Youngrak. All Rights Reserved</p>
+      </footer>
+
     </div >
   );
 }

@@ -9,7 +9,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 
-import main from './assets/main.png';
+import main from './assets/faq.jpg';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 
@@ -42,7 +42,7 @@ function ToDo() {
   const { t, i18n } = useTranslation("common");
 
   return (
-    <div className="ToDo" >
+    <div className="FAQ" >
       <header className={classes}>
         <header className="navbar">
           <ul>
@@ -89,7 +89,19 @@ function ToDo() {
                   What is the timeline for the day?
         </AccordionSummary>
                 <AccordionDetails>
-               Ceremony will start at 11:30am. After the ceremony, we'll have some group photos, and guests can drive over to the reception place (about 15 minutes away) where lunch will be served around 1pm. Reception will end at 3pm. Please come to the venue at least 30 minutes prior to the official ceremony start time so everyone can get settled before the proceedings begin.
+                  <p>Ceremony will start at 11:30am. After the ceremony, we'll have some group photos, and guests can drive over to the reception place (about 15 minutes away) where lunch will be served around 1pm. Reception will end at 3pm. Please come to the venue at least 30 minutes prior to the official ceremony start time so everyone can get settled before the proceedings begin.
+                </p></AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                  What is the dress code?
+        </AccordionSummary>
+                <AccordionDetails>
+                  <p>Semi-formal Please wear what looks best on you!</p>
                 </AccordionDetails>
               </Accordion>
               <Accordion>
@@ -98,23 +110,11 @@ function ToDo() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                   What is the dress code?
+                  Can I bring a plus one?
         </AccordionSummary>
                 <AccordionDetails>
-                 Semi-formal Please wear what looks best on you!
-                </AccordionDetails>
-              </Accordion>
-               <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2-content"
-                  id="panel2-header"
-                >
-                   Can I bring a plus one?
-        </AccordionSummary>
-                <AccordionDetails>
-                  Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! We’re looking forward to celebrating with you soon, though!
-                </AccordionDetails>
+                  <p>Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! We’re looking forward to celebrating with you soon, though!
+                </p></AccordionDetails>
               </Accordion>
               <Accordion>
                 <AccordionSummary
@@ -122,61 +122,61 @@ function ToDo() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                   Am I allowed to bring children?
+                  Am I allowed to bring children?
         </AccordionSummary>
                 <AccordionDetails>
-                  If we haven't specifically mentioned it to you, unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! 
-                </AccordionDetails>
+                  <p>If we haven't specifically mentioned it to you, unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies!
+               </p> </AccordionDetails>
               </Accordion>
-                    <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2-content"
-                  id="panel2-header"
-                >
-                   What is the dress code?
-        </AccordionSummary>
-                <AccordionDetails>
-                 Semi-formal, just a notch below cocktail. Please wear what looks best on you! (all events will be indoors)
-                </AccordionDetails>
-              </Accordion>
-                   <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2-content"
-                  id="panel2-header"
-                >
-                    Will the ceremony be held in English?
-                 </AccordionSummary>
-                <AccordionDetails>
-                   Unfortunately, the ceremony will be held in Korean. We invite you all to attend via Youtube, if you don't
-                </AccordionDetails>
-              </Accordion>              
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                   Where can I park? 
-                 </AccordionSummary>
+                  What is the dress code?
+        </AccordionSummary>
                 <AccordionDetails>
-                   You'll have plenty of free parking at the venue, and at the restaurant where reception will be held.
-                </AccordionDetails>
-              </Accordion>  
-                <Accordion>
+                  <p>Semi-formal, just a notch below cocktail. Please wear what looks best on you! (all events will be indoors)
+                </p></AccordionDetails>
+              </Accordion>
+              <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                    How do I RSVP?
+                  Will the ceremony be held in English?
                  </AccordionSummary>
                 <AccordionDetails>
-                   We sure hope you'll be able to join us for your special day. Please RSVP by 3/4/24 by letting either the bride/groom know.
-                </AccordionDetails>
-              </Accordion>     
-                     <Accordion>
+                  <p>Unfortunately, the ceremony will be held in Korean. We invite you all to attend via Youtube, if you don't
+                </p></AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                  Where can I park?
+                 </AccordionSummary>
+                <AccordionDetails>
+                  <p>You'll have plenty of free parking at the venue, and at the restaurant where reception will be held.
+                </p></AccordionDetails>
+              </Accordion>
+              <Accordion>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2-content"
+                  id="panel2-header"
+                >
+                  How do I RSVP?
+                 </AccordionSummary>
+                <AccordionDetails>
+                  <p>We sure hope you'll be able to join us for your special day. Please RSVP by 3/4/24 by letting either the bride/groom know.
+                </p></AccordionDetails>
+              </Accordion>
+              <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel1-content"
@@ -185,10 +185,10 @@ function ToDo() {
                   I don't think I can make it. Can I attend via online?
         </AccordionSummary>
                 <AccordionDetails>
-                   Yes, we will be broadcasting the ceremony live via Youtube. Please join us if you're abroad in South Korea, Indonesia, or in any other states in the USA.
-                </AccordionDetails>
+                  <p>Yes, we will be broadcasting the ceremony live via Youtube. Please join us if you're abroad in South Korea, Indonesia, or in any other states in the USA.
+                </p></AccordionDetails>
               </Accordion>
-                     <Accordion>
+              <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
@@ -197,33 +197,33 @@ function ToDo() {
                   Will food be served?
                  </AccordionSummary>
                 <AccordionDetails>
-                  Yes, lunch will be served from 1pm. Please eat breakfast before you come, so you don't end up hangry
-                 </AccordionDetails>
-              </Accordion> 
+                  <p>Yes, lunch will be served from 1pm. Please eat breakfast before you come, so you don't end up hangry
+                 </p></AccordionDetails>
+              </Accordion>
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                    What if I have dietary restrictions?
+                  What if I have dietary restrictions?
                  </AccordionSummary>
                 <AccordionDetails>
-                   Please let the bride/groom know.
+                  <p>Please let the bride/groom know.</p>
                 </AccordionDetails>
-              </Accordion>                
-               <Accordion>
+              </Accordion>
+              <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                     Is it an open bar?
+                  Is it an open bar?
                  </AccordionSummary>
                 <AccordionDetails>
-                   There will be a cash bar at the reception so please plan on bringing cash if you'd like.
-                </AccordionDetails>
-              </Accordion>     
+                  <p>There will be a cash bar at the reception so please plan on bringing cash if you'd like.
+                </p></AccordionDetails>
+              </Accordion>
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
@@ -233,7 +233,7 @@ function ToDo() {
                   Any recommendations for some things to do before/after the wedding?
         </AccordionSummary>
                 <AccordionDetails>
-                    <div>Cafe</div>
+                  <div>Cafe</div>
                   <p>La Ventana Cafe</p>
                   <p>White Wolf Pattiesierre</p>
                   <p>Tous Les Jours</p>
@@ -250,13 +250,13 @@ function ToDo() {
                   <p>Noori Pocha</p>
                   <p>Asian Express</p>
                   <p>Noble Fish</p>
-                  <p>Sushi Hana</p> 
+                  <p>Sushi Hana</p>
                   <p>Detroit Shipping Company</p>
                   <p>Tienda Mexicana</p>
                   <p>Satay House</p>
                   <p>Frita Batidos</p>
                   <p>Marsa</p>
-                   <div>
+                  <div>
                     Downtown
                   </div>
                   <p>Eastern Market</p>
@@ -290,7 +290,8 @@ function ToDo() {
       </Fade>
       {/* <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
       <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button> */}
-     <p> Copyright © 2024 Sinai Youngrak. All Rights Reserved</p>
+
+      <footer><p> Copyright © 2024 Sinai Youngrak. All Rights Reserved</p></footer>
     </div >
   );
 }

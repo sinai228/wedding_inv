@@ -14,17 +14,17 @@ import 'swiper/css/thumbs';
 export default function Thumb() {
   const [thumbs, setThumbs] = useState(null);
 
-  const images = [
-    "https://swiperjs.com/demos/images/nature-10.jpg",
-    "https://swiperjs.com/demos/images/nature-1.jpg",
-    "https://swiperjs.com/demos/images/nature-2.jpg",
-    "https://swiperjs.com/demos/images/nature-3.jpg",
-    "https://swiperjs.com/demos/images/nature-4.jpg",
-    "https://swiperjs.com/demos/images/nature-5.jpg",
-    "https://swiperjs.com/demos/images/nature-6.jpg",
-  ];
+  // const images = [
+  //   "https://swiperjs.com/demos/images/nature-10.jpg",
+  //   "https://swiperjs.com/demos/images/nature-1.jpg",
+  //   "https://swiperjs.com/demos/images/nature-2.jpg",
+  //   "https://swiperjs.com/demos/images/nature-3.jpg",
+  //   "https://swiperjs.com/demos/images/nature-4.jpg",
+  //   "https://swiperjs.com/demos/images/nature-5.jpg",
+  //   "https://swiperjs.com/demos/images/nature-6.jpg",
+  // ];
 
-  const images = require.context('../../images', true);
+  const images = require.context('../assets/image_slider', true);
   const imageList = images.keys().map(image => images(image));
 
   return (
@@ -48,7 +48,7 @@ export default function Thumb() {
           className="mySwiper2"
         >
 
-          {images.map((src, idx) => <SwiperSlide key={idx}>
+          {imageList.map((src, idx) => <SwiperSlide key={idx}>
             <div className="swiper-zoom-container">
               <img src={src} alt={idx} />
             </div>
@@ -64,7 +64,7 @@ export default function Thumb() {
           modules={[Zoom, FreeMode, Navigation, Thumbs]}
           className="mySwiper"
         >
-          {images.map((src, idx) => <SwiperSlide key={idx}><img src={src} alt={idx} /></SwiperSlide>)}
+          {imageList.map((src, idx) => <SwiperSlide key={idx} className="thumb"><img src={src} alt={idx} /></SwiperSlide>)}
 
         </Swiper>
       </>
