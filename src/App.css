@@ -193,6 +193,11 @@ a:visited {
     margin: 35px
 
 }
+
+.introtext {
+    padding: 0 2vw 0 2vw;
+
+}
 .intro p {
   font-family: 'Jeongnimsaji-R';
   font-stretch: 5;
@@ -360,6 +365,8 @@ a:visited {
   font-family: "Jeongnimsaji-R";
   color: #666;
   margin: 3px;
+  display: inline;
+  font-size: 2vw;
 }
 
 .account {
