@@ -114,7 +114,7 @@ function ToDo() {
                   <p>Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! We’re looking forward to celebrating with you soon, though!
                 </p></AccordionDetails>
               </Accordion>
-              <Accordion>
+            /*  <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
@@ -125,7 +125,7 @@ function ToDo() {
                 <AccordionDetails>
                   <p>If we haven't specifically mentioned it to you, unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies!
                </p> </AccordionDetails>
-              </Accordion>
+              </Accordion>*/
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
@@ -147,7 +147,7 @@ function ToDo() {
                   Will the ceremony be held in English?
                  </AccordionSummary>
                 <AccordionDetails>
-                  <p>Unfortunately, the ceremony will be held in Korean. We invite you all to attend via Youtube, if you don't
+                  <p>Unfortunately, the ceremony will be held in Korean. We would still love it if you could come to celebrate with us on our special day!
                 </p></AccordionDetails>
               </Accordion>
               <Accordion>
