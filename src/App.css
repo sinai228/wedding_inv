@@ -229,8 +229,9 @@ a:visited {
  }
 
  .middle_img {
-  max-width: 100%;
-  object-fit: contain;
+  max-height: 100%;
+  background-size: contain;
+  /* object-fit: contain; */
  }
 .banner p {
    font-family: cursive, fantasy;

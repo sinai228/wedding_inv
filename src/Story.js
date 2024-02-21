@@ -9,19 +9,14 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-
 import LanguageIcon from '@mui/icons-material/Language';
-
-import main from './assets/story.png';
+import main from './assets/story.JPG';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
-
 import './Story.css';
 
 
 function Story() {
-
-
   const [sticky, setSticky] = useState("");
   const [showButton, setShowButton] = useState(true);
 
@@ -92,7 +87,7 @@ function Story() {
       <Fade bottom delay={1000}>
 
         <div id="" className="body">
-          <div id="home" className="border" style={{
+          <div id="home" className="middle" style={{
             backgroundImage: `url(${main})`, height: '400px'
           }}>
           </div>
@@ -299,7 +294,7 @@ function Story() {
             </TimelineItem>
             <TimelineItem>
               <TimelineOppositeContent color="text.secondary">
-                <img className="image" src={main}></img>
+                <img className="image" src={main} alt="main"></img>
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot />

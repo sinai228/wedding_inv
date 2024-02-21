@@ -7,9 +7,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-
-import main from './assets/faq.jpg';
+import main from './assets/faq.JPG';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 
@@ -39,7 +37,7 @@ function ToDo() {
   };
 
   const classes = `header-section d-none d-xl-block ${sticky}`;
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <div className="FAQ" >
@@ -73,8 +71,8 @@ function ToDo() {
       <Fade bottom delay={1000}>
 
         <div className="body">
-          <div id="home" className="border" style={{
-            backgroundImage: `url(${main})`, height: '400px'
+          <div id="home" className="middle" style={{
+            backgroundImage: `url(${main})`, height: '400px', alignItems: 'center'
           }}>
           </div>
           <div className="padding-10">

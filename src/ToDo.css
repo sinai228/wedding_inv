@@ -20,6 +20,9 @@ p {
   margin-left: 15px;
 }
 
+.middle {
+    background-size: contain;
+}
 .FAQ .body {
   font-family: "Handletter";
 }

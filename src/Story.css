@@ -97,3 +97,7 @@ select {
   padding: none;
   background-color: transparent !important;
 }
+
+.middle {
+    background-size: contain;
+}

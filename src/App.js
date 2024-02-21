@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 // import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 // import { BrowserRouter } from 'react-router-dom';
 import AspectRatio from '@mui/joy/AspectRatio';
@@ -29,9 +29,9 @@ import ornament2 from './assets/bbb.png';
 import ornament3 from './assets/bb1.png';
 // import calendar from './assets/calendar.png';
 import calendar from './assets/date.png';
-import bride from './assets/bride.jpg';
+import bride from './assets/bride.JPG';
 import groom from './assets/groom.jpg';
-import middle from './assets/middle.jpg';
+import middle from './assets/middle.JPG';
 
 
 
@@ -117,13 +117,13 @@ export default function App() {
           <CardOverflow >
             <AspectRatio ratio="1" sx={{ width: "25vw", padding: 0.5, borderRadius: 5 }}>
               <img
-                src={bride}
+                src={groom}
                 loading="lazy"
                 alt="p1"
               />
             </AspectRatio>
           </CardOverflow>
-          <Fade bottom delay={600}>
+          <Fade bottom delay={400}>
 
             <CardContent>
               <div className="side">
@@ -169,13 +169,13 @@ export default function App() {
           <CardOverflow>
             <AspectRatio ratio="1" sx={{ width: "25vw", padding: 0.5, borderRadius: 5 }}>
               <img
-                src={groom}
+                src={bride}
                 loading="lazy"
                 alt="p2"
               />
             </AspectRatio>
           </CardOverflow>
-          <Fade bottom delay={600}>
+          <Fade bottom delay={400}>
             <CardContent>
 
               <div className="side">
@@ -215,7 +215,7 @@ export default function App() {
         <div className="babysbreath">
           <img src={ornament} alt="f1" />
         </div>
-        <Fade bottom delay={600}>
+        <Fade bottom delay={400}>
           <p className="introtext">{t('introtext.1')}</p>
           <p>{t('introtext.2')} </p>
           <p>{t('introtext.3')}</p>
@@ -227,9 +227,9 @@ export default function App() {
         </div>
       </div>
 
-      <Fade bottom delay={600}>
+      <Fade bottom delay={400}>
         <div id="home" className="middle_img" style={{
-          backgroundImage: `url(${middle})`, height: '400px'
+          backgroundImage: `url(${middle})`, height: '300px'
         }}>
         </div>
         <div className="babysbreath padding-50">
@@ -245,7 +245,7 @@ export default function App() {
           {diff}<span> {t('dday2')}</span>
         </div>
       </Fade>
-      <Fade bottom delay={600}>
+      <Fade bottom delay={400}>
         <div id="gallery" className="gallery ">
           <div className="banner">
             <p>we're getting married</p>
@@ -253,7 +253,7 @@ export default function App() {
           <ThumbGallery />
         </div >
       </Fade>
-      <Fade bottom delay={600}>
+      <Fade bottom delay={400}>
         <div id="story" className="story">
           <p> {t('header.story')}</p>
           <button className="readmore">  <li><NavLink activeClass="active"
@@ -263,7 +263,7 @@ export default function App() {
             offset={0}
             duration={750}>{t('header.read')}</NavLink></li></button>
         </div>  </Fade>
-      <Fade bottom delay={600}>
+      <Fade bottom delay={400}>
         <div id="story" className="account">
           <p className="header"> {t('header.accounts')}</p>
           <p>♥︎</p>
@@ -273,13 +273,12 @@ export default function App() {
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1-content"
                 id="panel1-header"
-
               >
                 {t('header.groom')}
               </AccordionSummary>
               <AccordionDetails>
                 <div className="accdetail">
-                  <span>Zelle 123123123</span>
+                  <span>Zelle </span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('123123123')}
                   >
@@ -310,7 +309,7 @@ export default function App() {
               </AccordionSummary>
               <AccordionDetails>
                 <div className="accdetail">
-                  <span >Zelle 123123123</span>
+                  <span>Zelle 6163345735</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('123123123')}
                   >
