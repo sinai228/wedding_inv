@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.6354ca05.css",
-    "main.js": "/wedding/static/js/main.5aed3d6c.js",
+    "main.css": "/wedding/static/css/main.993d5376.css",
+    "main.js": "/wedding/static/js/main.cb6ebfe1.js",
     "static/js/787.5c44c47e.chunk.js": "/wedding/static/js/787.5c44c47e.chunk.js",
     "static/media/A4A61FD4-5F01-43A4-92E7-10273D63DDE5.jpeg": "/wedding/static/media/A4A61FD4-5F01-43A4-92E7-10273D63DDE5.1cea3c712d3a243896e1.jpeg",
     "static/media/7EE0F04F-0744-4C98-BDEF-9BBC9CF67534.jpeg": "/wedding/static/media/7EE0F04F-0744-4C98-BDEF-9BBC9CF67534.91d14cefbaf682db620f.jpeg",
@@ -17,27 +17,27 @@
     "static/media/image.png": "/wedding/static/media/image.7ce0919c5cb754af4f94.png",
     "static/media/image8.png": "/wedding/static/media/image8.13be4abb67b238062fc3.png",
     "static/media/RNI-Films-IMG-D8AAF2AF-E4B4-4960-A3A9-901E7F65AA77.JPG": "/wedding/static/media/RNI-Films-IMG-D8AAF2AF-E4B4-4960-A3A9-901E7F65AA77.76d24e39596cdef96e1e.JPG",
-    "static/media/story.jpg": "/wedding/static/media/story.76d24e39596cdef96e1e.jpg",
-    "static/media/img.jpg": "/wedding/static/media/img.804df2aae940d2a7e226.jpg",
+    "static/media/story.JPG": "/wedding/static/media/story.76d24e39596cdef96e1e.JPG",
+    "static/media/img.JPG": "/wedding/static/media/img.804df2aae940d2a7e226.JPG",
     "static/media/RNI-Films-IMG-8306825E-13BF-4931-9FED-9E78CB2FDE57.JPG": "/wedding/static/media/RNI-Films-IMG-8306825E-13BF-4931-9FED-9E78CB2FDE57.ad19056327c19f0167f6.JPG",
-    "static/media/middle.jpg": "/wedding/static/media/middle.ad19056327c19f0167f6.jpg",
-    "static/media/faq.jpg": "/wedding/static/media/faq.8bad816fcd91578c9f76.jpg",
+    "static/media/middle.JPG": "/wedding/static/media/middle.ad19056327c19f0167f6.JPG",
+    "static/media/faq.JPG": "/wedding/static/media/faq.8bad816fcd91578c9f76.JPG",
     "static/media/Allura-Regular.ttf": "/wedding/static/media/Allura-Regular.9429cde4d80d03c85860.ttf",
     "static/media/bb1.png": "/wedding/static/media/bb1.e7685eb7a111e6977e53.png",
     "static/media/main.png": "/wedding/static/media/main.95d2b641468773666e6f.png",
     "static/media/bbb.png": "/wedding/static/media/bbb.74f70ca82e4508b02268.png",
     "static/media/bb.png": "/wedding/static/media/bb.1a040b2634c1d0b93ba6.png",
     "static/media/groom.jpg": "/wedding/static/media/groom.8cfdd2cfc1cfb7781a4f.jpg",
-    "static/media/bride.jpg": "/wedding/static/media/bride.1ae18b19039819808ffa.jpg",
+    "static/media/bride.JPG": "/wedding/static/media/bride.1ae18b19039819808ffa.JPG",
     "static/media/date.png": "/wedding/static/media/date.e52b649257dd1b2b0318.png",
     "static/media/Zeyada-Regular.ttf": "/wedding/static/media/Zeyada-Regular.fb9bab9d2c0d16e69cdd.ttf",
     "index.html": "/wedding/index.html",
-    "main.6354ca05.css.map": "/wedding/static/css/main.6354ca05.css.map",
-    "main.5aed3d6c.js.map": "/wedding/static/js/main.5aed3d6c.js.map",
+    "main.993d5376.css.map": "/wedding/static/css/main.993d5376.css.map",
+    "main.cb6ebfe1.js.map": "/wedding/static/js/main.cb6ebfe1.js.map",
     "787.5c44c47e.chunk.js.map": "/wedding/static/js/787.5c44c47e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6354ca05.css",
-    "static/js/main.5aed3d6c.js"
+    "static/css/main.993d5376.css",
+    "static/js/main.cb6ebfe1.js"
   ]
 }
