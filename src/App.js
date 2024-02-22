@@ -23,7 +23,7 @@ import Navbar from './components/Header.js';
 import Fade from 'react-reveal/Fade';
 import moment from 'moment';
 
-import main from './assets/main.png';
+import main from './assets/main.JPG';
 import ornament from './assets/bb.png';
 import ornament2 from './assets/bbb.png';
 import ornament3 from './assets/bb1.png';
