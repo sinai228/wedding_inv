@@ -23,7 +23,7 @@ import Navbar from './components/Header.js';
 import Fade from 'react-reveal/Fade';
 import moment from 'moment';
 
-import main from './assets/main.JPG';
+import main from './assets/main.png';
 import ornament from './assets/bb.png';
 import ornament2 from './assets/bbb.png';
 import ornament3 from './assets/bb1.png';
@@ -79,7 +79,7 @@ export default function App() {
 
       {/* <img className="main" src={main} alt="image" /> */}
       <div id="home" className="border" style={{
-        backgroundImage: `url(${main})`
+        backgroundImage: `url(${main})`, height: "95vh"
       }}>
         <div className="padding-50">
           <p>WEDDING INVITATION</p>
@@ -127,8 +127,8 @@ export default function App() {
 
             <CardContent>
               <div className="side">
-                <Typography level="body-sm" fontSize="3.5vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.groomp')} </Typography>
-                <Typography level="body-sm" fontSize="2.5vw"
+                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.groomp')} </Typography>
+                <Typography level="body-sm" fontSize="2.1vw"
                   textAlign="left"
                   fontFamily="Jeongnimsaji-R"
                 >  {t('name.3')} </Typography>
@@ -179,8 +179,8 @@ export default function App() {
             <CardContent>
 
               <div className="side">
-                <Typography level="body-sm" fontSize="3.5vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.bridep')} </Typography>
-                <Typography level="body-sm" fontSize="2.5vw"
+                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.bridep')} </Typography>
+                <Typography level="body-sm" fontSize="2.1vw"
                   textAlign="left"
                   fontFamily="Jeongnimsaji-R"
                 > {t('name.2')} </Typography>

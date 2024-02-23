@@ -131,7 +131,7 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>11.6.21
+              <TimelineContent className="nohover">11.6.21
              <p>{t('story.t3')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
@@ -276,7 +276,7 @@ function Story() {
             </TimelineItem>
             <TimelineItem>
               <TimelineOppositeContent color="text.secondary">
-                09:30 am
+                {/* 09:30 am */}
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" />

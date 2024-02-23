@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import main from './assets/faq.JPG';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
@@ -72,7 +71,7 @@ function ToDo() {
 
         <div className="body">
           <div id="home" className="middle" style={{
-            backgroundImage: `url(${main})`, height: '10vw', alignItems: 'center'
+            backgroundImage: `url(${main})`, height: '65vw', alignItems: 'center'
           }}>
           </div>
           <div className="padding-10">
@@ -99,7 +98,9 @@ function ToDo() {
                   What is the dress code?
         </AccordionSummary>
                 <AccordionDetails>
-                  <p>Semi-formal Please wear what looks best on you!</p>
+                  <p>Semi-formal</p>
+                  <p>Just a notch below cocktail. Please wear what looks best on you! (all events will be indoors)
+                </p>
                 </AccordionDetails>
               </Accordion>
               <Accordion>
@@ -114,7 +115,7 @@ function ToDo() {
                   <p>Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! We’re looking forward to celebrating with you soon, though!
                 </p></AccordionDetails>
               </Accordion>
-            /*  <Accordion>
+              {/* <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
                   aria-controls="panel2-content"
@@ -125,19 +126,8 @@ function ToDo() {
                 <AccordionDetails>
                   <p>If we haven't specifically mentioned it to you, unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies!
                </p> </AccordionDetails>
-              </Accordion>*/
-              <Accordion>
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel2-content"
-                  id="panel2-header"
-                >
-                  What is the dress code?
-        </AccordionSummary>
-                <AccordionDetails>
-                  <p>Semi-formal, just a notch below cocktail. Please wear what looks best on you! (all events will be indoors)
-                </p></AccordionDetails>
-              </Accordion>
+              </Accordion>*/}
+
               <Accordion>
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}
@@ -274,10 +264,7 @@ function ToDo() {
                   <p>Somerset Collection</p>
                   <p>Greater Lakes Outlet</p>
                 </AccordionDetails>
-                <AccordionActions>
-                  <Button>Cancel</Button>
-                  <Button>Agree</Button>
-                </AccordionActions>
+
               </Accordion>
             </div>
           </div>

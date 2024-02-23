@@ -19,7 +19,12 @@
   font-weight: normal;
   src: url("./assets/fonts/강원교육현옥샘.ttf") format("truetype");
 }
-
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'OG_Renaissance_Secret-Rg';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/OG_Renaissance_Secret-Rg.woff2') format('woff2');
@@ -53,13 +58,13 @@
 }
 .half {
   flex-direction: row;
-  width: 25vw;
+  width: 35vw;
   font-size: 1.5vw;
   padding: 7px;
 }
 
 .reg {
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-family: "omyu_pretty";
      font-size: .5rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
@@ -69,7 +74,7 @@
 }
 
 .half .sinai {
-   color: rgb(252, 127, 235)
+   color: rgb(255, 77, 231);
 }
 .half .youngrak {
    color: rgb(84, 168, 236)
