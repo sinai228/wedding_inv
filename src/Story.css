@@ -104,5 +104,6 @@ select {
 }
 
 .middle {
-    background-size: contain;
+   /*  background-size: contain; */
+  background-size: cover;
 }
