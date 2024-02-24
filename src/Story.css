@@ -58,9 +58,9 @@
 }
 .half {
   flex-direction: row;
-  width: 35vw;
+  width: 33vw;
   font-size: 1.5vw;
-  padding: 7px;
+  padding: 3px;
 }
 
 .reg {
@@ -80,7 +80,7 @@
    color: rgb(84, 168, 236)
 }
 
-select {
+/* select {
   display: block;
   color: #666;
   text-align: center;
@@ -88,7 +88,7 @@ select {
   text-decoration: none;
   font-size: 5px;
   width: min-content;
-}
+} */
 
 .image {
   width: 100px;

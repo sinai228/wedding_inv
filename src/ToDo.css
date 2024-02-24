@@ -27,7 +27,7 @@ p {
 }
 
 .middle {
-    background-size: contain;
+    background-size: cover;
 }
 .FAQ .body {
   font-family: "iceJaram-Rg";

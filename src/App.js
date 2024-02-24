@@ -8,6 +8,7 @@ import CardOverflow from '@mui/joy/CardOverflow';
 import Typography from '@mui/joy/Typography';
 import { NavLink } from 'react-router-dom';
 import Accordion from '@mui/material/Accordion';
+// import { Text } from 'react-native';
 // import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -268,19 +269,20 @@ export default function App() {
           <p className="header"> {t('header.accounts')}</p>
           <p>♥︎</p>
           <div className="acc" >
-            <Accordion className="acc" style={{ marginBottom: "15px", alignItems: "center", borderRadius: "15px" }}>
+            <Accordion className="accname" style={{ marginBottom: "15px", alignItems: "center", borderRadius: "15px" }}>
               <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1-content"
+                className="right"
                 id="panel1-header"
               >
                 {t('header.groom')}
               </AccordionSummary>
               <AccordionDetails>
                 <div className="accdetail">
-                  <span>Zelle </span>
+                  <span>Zelle 6163491228</span>
                   <button className="acccopy"
-                    onClick={() => navigator.clipboard.writeText('123123123')}
+                    onClick={() => navigator.clipboard.writeText('6163491228')}
                   >
                     {t('buttons.cop')}
                   </button>
@@ -303,7 +305,7 @@ export default function App() {
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1-content"
                 id="panel1-header"
-                className="center"
+                className="right"
               >
                 {t('header.bride')}
               </AccordionSummary>
@@ -311,19 +313,19 @@ export default function App() {
                 <div className="accdetail">
                   <span>Zelle 6163345735</span>
                   <button className="acccopy"
-                    onClick={() => navigator.clipboard.writeText('123123123')}
+                    onClick={() => navigator.clipboard.writeText('6163345735')}
                   >
                     {t('buttons.cop')}
                   </button>
                 </div>
-                <div className="accdetail">
+                {/* <div className="accdetail">
                   <span className="accdetail">국민은행 123123123</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('123123123')}
                   >
                     {t('buttons.cop')}
                   </button>
-                </div>
+                </div> */}
               </AccordionDetails>
             </Accordion>
 

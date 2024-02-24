@@ -71,7 +71,7 @@ function ToDo() {
 
         <div className="body">
           <div id="home" className="middle" style={{
-            backgroundImage: `url(${main})`, height: '65vw', alignItems: 'center'
+            backgroundImage: `url(${main})`, height: '85vw', alignItems: 'center'
           }}>
           </div>
           <div className="padding-10">

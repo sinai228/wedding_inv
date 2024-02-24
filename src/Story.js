@@ -106,7 +106,6 @@ function Story() {
 
           <div>
             <p>{t('menu.story')}</p>
-            <p>{t('story.t2')}</p>
           </div>
           <Timeline position="alternate" >
             <TimelineItem>
@@ -114,8 +113,8 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
-                <div>08.2021</div>
+              <TimelineContent> 08.2021
+                <p>{t('story.t2')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
                   {t('story.h2')}</div>
@@ -196,7 +195,7 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>7.4.22  <p>{t('story.t7')}</p>
+              <TimelineContent>07.04.22  <p>{t('story.t7')}</p>
                 <p></p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
@@ -212,7 +211,7 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>7-12.22 <p>{t('story.t8')}</p>
+              <TimelineContent>07.12.22 <p>{t('story.t8')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}:
                   </span> {t('story.h8')}</div>
@@ -232,7 +231,7 @@ function Story() {
               <TimelineContent>12.28.22 <p>{t('story.t9')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}:    </span>
-                  {t('story.h8')}</div>
+                  {t('story.h9')}</div>
                 <div className="half">
                   <span className="sinai">{t('story.she')}: </span>
                   {t('story.s9')}
@@ -261,7 +260,7 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>1-12.2023
+              <TimelineContent>01.12.2023
              <p>{t('story.t11')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
