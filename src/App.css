@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Petit+Formal+Script&display=swap')
+
 @font-face {
   font-family: "Zeyada-Regular";
   font-weight: normal;
@@ -31,6 +34,19 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+.gowun-dodum-regular {
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+.petit-formal script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .App {
   text-align: center;
