@@ -412,7 +412,8 @@ text-decoration-line: none;
 
 .account {
   display: block;
-  background-color: #ecf1e3;
+  /*background-color: #ecf1e3;*/
+  background-color: #d4e8f0;
   padding: 40px 0 ;
   text-align: center;
 }
