@@ -14,6 +14,7 @@ import main from './assets/story.JPG';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 import './Story.css';
+import Navbar from './components/Header.js';
 
 
 function Story() {
@@ -50,30 +51,8 @@ function Story() {
   return (
     <div className="Story" >
       <header className={classes}>
-        <header className="navbar">
-          <ul>
-            <li><NavLink activeClass="active"
-              to="/" >{t('menu.totop')}</NavLink></li>
-            <li><NavLink activeClass="active"
-              to="/story" >{t('menu.story')}</NavLink></li>
-            <li><a href="https://www.amazon.com/wedding/share/youngraksinai"
-              rel="noreferrer" className="visited" target="_blank">{t('menu.reg')}</a></li>
-            <li><NavLink activeClass="active"
-              to="/todo" >{t('menu.todo')}</NavLink></li>
-            {/* Simple locale switcher */}
-            {/* <button onClick={() => i18n.changeLanguage("en-US")}>
-              ENG
-        </button>
-            <button onClick={() => i18n.changeLanguage("kr-KR")}>
-              KOR
-        </button> */}
-
-            {/* <select name="lang" id="lang">
-              <option value="en-US">{t('buttons.en')}</option>
-              <option value="kr">{t('buttons.kr')}</option>
-            </select> */}
-
-          </ul>
+        <header className="navbar"> 
+        <Navbar></Navbar> 
         </header>
       </header>
       <div className="lang">
