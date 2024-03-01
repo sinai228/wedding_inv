@@ -30,15 +30,15 @@
   flex-direction: row;
   width: 100%;
   font-size: 9px;
-  padding: 3px;
-    font-family: "GowunDodum";
+  padding: 1px;
+  font-family: "GowunDodum";
 }
 
 .reg {
   font-family: "GowunDodum";
     font-size: 10px;
   line-height: 1.5;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
 
     /* flex: 1; */
     /* padding: 6px 10px; */

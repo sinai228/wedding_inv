@@ -127,13 +127,13 @@ export default function App() {
 
             <CardContent>
               <div className="side">
-                <Typography level="body-sm" fontSize="20px" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
-                <Typography level="body-sm" fontSize="2.1vw"
+                <Typography level="body-sm" fontSize="15px" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
+                <Typography level="body-sm" fontSize="12px"
                   textAlign="left"
                   fontFamily="GowunDodum"
                 >  {t('name.3')} </Typography>
               </div>
-              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="GowunDodum">
+              <Typography fontWeight="md" textColor="text.secondary" fontSize="19px" textAlign="left" fontFamily="GowunDodum">
                 {t('name.groom')}
               </Typography>
             </CardContent>
@@ -179,13 +179,13 @@ export default function App() {
             <CardContent>
 
               <div className="side">
-                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="GowunDodum" > {t('name.bridep')} </Typography>
-                <Typography level="body-sm" fontSize="2.1vw"
+                <Typography level="body-sm" fontSize="15px" textAlign="left" fontFamily="GowunDodum" > {t('name.bridep')} </Typography>
+                <Typography level="body-sm" fontSize="12px"
                   textAlign="left"
                   fontFamily="GowunDodum"
                 > {t('name.2')} </Typography>
               </div>
-              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="GowunDodum">
+              <Typography fontWeight="md" textColor="text.secondary" fontSize="19px" textAlign="left" fontFamily="GowunDodum">
                 {t('name.bride')}
               </Typography>
             </CardContent>
@@ -231,15 +231,15 @@ export default function App() {
 
       <Fade bottom delay={400}>
         <div id="home" className="middle_img" style={{
-          backgroundImage: `url(${middle})`, height: '650px'
+          backgroundImage: `url(${middle})`, height: '630px'
         }}>
           <div className="banner">
             <p style={{
-              padding: '20px'
+              padding: '50px'
             }}>We're getting married!</p>
           </div>
           <div style={{
-            height: '480px'
+            height: '420px'
           }}>
           </div>
           <span className="white"> {t('dday')}
