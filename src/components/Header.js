@@ -64,13 +64,18 @@ const Header = () => {
             <li><a href="https://www.amazon.com/wedding/share/youngraksinai"
               className="visited" rel="noreferrer"
               target="_blank">{t('menu.reg')}</a></li>
-            <li><Link activeClass="active"
+            {/*<li><Link activeClass="active"
               to="more"
               spy={true}
               smooth={true}
               offset={0}
-              duration={750}>{t('menu.more')}</Link></li>
-
+              duration={750}>{t('menu.more')}</Link></li>*/}
+            <li><NavLink activeClass="active"
+              to="/todo"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={750}>{t('menu.faq')}</NavLink></li>
           </ul>
           {/* <select>
             <option onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}
