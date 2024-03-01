@@ -14,7 +14,7 @@ import main from './assets/story.JPG';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 import './Story.css';
-import Navbar from './components/Header.js';
+import Navbar from './components/Header2.js';
 
 
 function Story() {
