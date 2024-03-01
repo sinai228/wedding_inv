@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/wedding_inv/static/css/main.6bcea2cb.css",
-    "main.js": "/wedding_inv/static/js/main.9b3c3ae4.js",
+    "main.css": "/wedding_inv/static/css/main.1a941cf4.css",
+    "main.js": "/wedding_inv/static/js/main.80a39826.js",
     "static/js/787.4d91e11c.chunk.js": "/wedding_inv/static/js/787.4d91e11c.chunk.js",
     "static/media/GowunDodum-Regular.ttf": "/wedding_inv/static/media/GowunDodum-Regular.39c9a39c246c3c54c53e.ttf",
-    "static/media/Jeongnimsaji-R.ttf": "/wedding_inv/static/media/Jeongnimsaji-R.91bfdab46b3e54b3b405.ttf",
-    "static/media/강원교육현옥샘.ttf": "/wedding_inv/static/media/강원교육현옥샘.47b6669012a754bd06ac.ttf",
     "static/media/IMG_1241.jpg": "/wedding_inv/static/media/IMG_1241.3c215549b5133951c90a.jpg",
     "static/media/IMG_1221.jpg": "/wedding_inv/static/media/IMG_1221.af9f5c0a9b9f71373187.jpg",
     "static/media/IMG_1238.jpg": "/wedding_inv/static/media/IMG_1238.49782089e3a4b2910534.jpg",
@@ -30,7 +28,6 @@
     "static/media/story.JPG": "/wedding_inv/static/media/story.76d24e39596cdef96e1e.JPG",
     "static/media/img.JPG": "/wedding_inv/static/media/img.804df2aae940d2a7e226.JPG",
     "static/media/IMG_1291.jpg": "/wedding_inv/static/media/IMG_1291.ada4e6efc235c522271d.jpg",
-    "static/media/Allura-Regular.ttf": "/wedding_inv/static/media/Allura-Regular.9429cde4d80d03c85860.ttf",
     "static/media/bride.JPG": "/wedding_inv/static/media/bride.6043b40ec3335bdd3f4d.JPG",
     "static/media/bb1.png": "/wedding_inv/static/media/bb1.e7685eb7a111e6977e53.png",
     "static/media/PetitFormalScript-Regular.ttf": "/wedding_inv/static/media/PetitFormalScript-Regular.5c30e1c42a51b494294e.ttf",
@@ -38,14 +35,13 @@
     "static/media/bb.png": "/wedding_inv/static/media/bb.1a040b2634c1d0b93ba6.png",
     "static/media/groom.jpg": "/wedding_inv/static/media/groom.8cfdd2cfc1cfb7781a4f.jpg",
     "static/media/date.png": "/wedding_inv/static/media/date.e52b649257dd1b2b0318.png",
-    "static/media/Zeyada-Regular.ttf": "/wedding_inv/static/media/Zeyada-Regular.fb9bab9d2c0d16e69cdd.ttf",
     "index.html": "/wedding_inv/index.html",
-    "main.6bcea2cb.css.map": "/wedding_inv/static/css/main.6bcea2cb.css.map",
-    "main.9b3c3ae4.js.map": "/wedding_inv/static/js/main.9b3c3ae4.js.map",
+    "main.1a941cf4.css.map": "/wedding_inv/static/css/main.1a941cf4.css.map",
+    "main.80a39826.js.map": "/wedding_inv/static/js/main.80a39826.js.map",
     "787.4d91e11c.chunk.js.map": "/wedding_inv/static/js/787.4d91e11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bcea2cb.css",
-    "static/js/main.9b3c3ae4.js"
+    "static/css/main.1a941cf4.css",
+    "static/js/main.80a39826.js"
   ]
 }
