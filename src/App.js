@@ -216,11 +216,13 @@ export default function App() {
           <img src={ornament} alt="f1" />
         </div>
         <Fade bottom delay={400}>
-          <p className="introtext">{t('introtext.1')}</p>
-          <p>{t('introtext.2')} </p>
-          <p>{t('introtext.3')}</p>
-          <p>{t('introtext.4')}</p>
-          <p> {t('introtext.5')}</p>
+          <div className="keep">
+            <p className="introtext">{t('introtext.1')}</p>
+            <p>{t('introtext.2')} </p>
+            <p>{t('introtext.3')}</p>
+            <p>{t('introtext.4')}</p>
+            <p> {t('introtext.5')}</p>
+          </div>
         </Fade>
         <div className="babysbreath">
           <img src={ornament} alt="f2" />
@@ -290,10 +292,10 @@ export default function App() {
           </div> */}
           <ThumbGallery />
         </div >
-        <div
-          style={{ height: "100px" }}></div>
+        {/* <div
+          style={{ height: "100px" }}></div> */}
       </Fade>
-      {/* <Fade bottom delay={400}>
+      <Fade bottom delay={400}>
         <div id="story" className="story">
           <p> {t('header.story')}</p>
           <button className="readmore">  <li><NavLink activeClass="active"
@@ -302,7 +304,7 @@ export default function App() {
             smooth={true}
             offset={0}
             duration={750}>{t('header.read')}</NavLink></li></button>
-        </div>  </Fade> */}
+        </div>  </Fade>
       <Fade bottom delay={400}>
         <div id="story" className="account">
           <p className="header"> {t('header.accounts')}</p>
@@ -375,11 +377,14 @@ export default function App() {
         <div className="verse">
           <div className="babysbreath">
             <img src={ornament3} alt="f0" />
-          </div><p>
+          </div >
+
+          <div className="keep"><p>
             {t('verse.body')}
           </p><p>
-            {t('verse.passage')}
-          </p>
+              {t('verse.passage')}
+            </p>
+          </div>
 
           {/* <p>
             There is one body and one Spirit,
