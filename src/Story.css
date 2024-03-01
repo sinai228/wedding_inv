@@ -12,6 +12,10 @@
     word-wrap: normal;
 }
 
+.Story:hover {
+  color: white;
+  text-decoration-color: none;
+}
 .body p {
   font-family: "GowunDodum";
   font-size: 11px;
@@ -51,10 +55,6 @@
    color: rgb(84, 168, 236)
 }
 
-.half:hover {
-  color: red;
-  text-decoration-color: red;
-}
 /* select {
   display: block;
   color: #666;
