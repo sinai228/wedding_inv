@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_inv/static/css/main.b9c762f4.css",
-    "main.js": "/wedding_inv/static/js/main.e3e40f9d.js",
+    "main.css": "/wedding_inv/static/css/main.8a771099.css",
+    "main.js": "/wedding_inv/static/js/main.614532ef.js",
     "static/js/787.4d91e11c.chunk.js": "/wedding_inv/static/js/787.4d91e11c.chunk.js",
     "static/media/GowunDodum-Regular.ttf": "/wedding_inv/static/media/GowunDodum-Regular.39c9a39c246c3c54c53e.ttf",
     "static/media/image10.png": "/wedding_inv/static/media/image10.41eac39517e02b322f21.png",
@@ -54,12 +54,12 @@
     "static/media/white_left.png": "/wedding_inv/static/media/white_left.946d10568a60213e6219.png",
     "static/media/white_right.png": "/wedding_inv/static/media/white_right.a8c1535d7cde491b7135.png",
     "index.html": "/wedding_inv/index.html",
-    "main.b9c762f4.css.map": "/wedding_inv/static/css/main.b9c762f4.css.map",
-    "main.e3e40f9d.js.map": "/wedding_inv/static/js/main.e3e40f9d.js.map",
+    "main.8a771099.css.map": "/wedding_inv/static/css/main.8a771099.css.map",
+    "main.614532ef.js.map": "/wedding_inv/static/js/main.614532ef.js.map",
     "787.4d91e11c.chunk.js.map": "/wedding_inv/static/js/787.4d91e11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9c762f4.css",
-    "static/js/main.e3e40f9d.js"
+    "static/css/main.8a771099.css",
+    "static/js/main.614532ef.js"
   ]
 }
