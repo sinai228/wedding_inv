@@ -36,7 +36,7 @@ const Header = () => {
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#story">Our Story</a></li>
             <li><a href="#registry">Registry</a></li>
-            <li><a href="#about">About</a></li> */}
+            <li><a href="#about">About</a></li>
             <li><Link activeClass="active"
               to="home"
               spy={true}
@@ -48,7 +48,20 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={750}  >{t('menu.gallery')}</Link></li>
+              duration={750}  >{t('menu.gallery')}</Link></li> */}
+           <li><NavLink activeClass="active"
+              to="/wedding_inv"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={750}>{t('menu.totop')}</NavLink></li>
+                <li><NavLink activeClass="active"
+              to="/wedding_inv"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={750}><a href="#gallery">{t('menu.gallery')}</a></NavLink></li>
+                
             <li><NavLink activeClass="active"
               to="/story"
               spy={true}
