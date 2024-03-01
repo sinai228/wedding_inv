@@ -240,7 +240,7 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>
+              <TimelineContent><p> 03~12.2023</p>
              <p>{t('story.t11')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
