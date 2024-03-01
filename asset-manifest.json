@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/wedding_inv/static/css/main.8a771099.css",
-    "main.js": "/wedding_inv/static/js/main.614532ef.js",
+    "main.css": "/wedding_inv/static/css/main.2ec554ef.css",
+    "main.js": "/wedding_inv/static/js/main.49636d23.js",
     "static/js/787.4d91e11c.chunk.js": "/wedding_inv/static/js/787.4d91e11c.chunk.js",
     "static/media/GowunDodum-Regular.ttf": "/wedding_inv/static/media/GowunDodum-Regular.39c9a39c246c3c54c53e.ttf",
     "static/media/image10.png": "/wedding_inv/static/media/image10.41eac39517e02b322f21.png",
     "static/media/IMG_1241.jpg": "/wedding_inv/static/media/IMG_1241.3c215549b5133951c90a.jpg",
+    "static/media/img.JPG": "/wedding_inv/static/media/img.8c0ef648ad1f929dbc35.JPG",
     "static/media/IMG_1221 2.jpg": "/wedding_inv/static/media/IMG_1221 2.af9f5c0a9b9f71373187.jpg",
     "static/media/IMG_1221.jpg": "/wedding_inv/static/media/IMG_1221.af9f5c0a9b9f71373187.jpg",
     "static/media/IMG_1217.jpg": "/wedding_inv/static/media/IMG_1217.a60eb7d796cb98267a5c.jpg",
@@ -24,6 +25,7 @@
     "static/media/IMG_1271.jpg": "/wedding_inv/static/media/IMG_1271.004e6de5716833645410.jpg",
     "static/media/IMG_1192.jpg": "/wedding_inv/static/media/IMG_1192.e43efb8cf4578e33eeba.jpg",
     "static/media/IMG_1294 2.jpg": "/wedding_inv/static/media/IMG_1294 2.496733be2768c5ff46c0.jpg",
+    "static/media/laststory.JPG": "/wedding_inv/static/media/laststory.2bb29275d5fd9746c8d6.JPG",
     "static/media/IMG_1247.jpg": "/wedding_inv/static/media/IMG_1247.95bbe98c2ed02fead1cb.jpg",
     "static/media/IMG_1323.jpg": "/wedding_inv/static/media/IMG_1323.19958100451f264c36ee.jpg",
     "static/media/IMG_0008.jpg": "/wedding_inv/static/media/IMG_0008.84bc9599bf1df77b00ea.jpg",
@@ -42,7 +44,6 @@
     "static/media/calendar.jpg": "/wedding_inv/static/media/calendar.8f79946e88b6db497d1d.jpg",
     "static/media/RNI-Films-IMG-D8AAF2AF-E4B4-4960-A3A9-901E7F65AA77.JPG": "/wedding_inv/static/media/RNI-Films-IMG-D8AAF2AF-E4B4-4960-A3A9-901E7F65AA77.76d24e39596cdef96e1e.JPG",
     "static/media/story.JPG": "/wedding_inv/static/media/story.76d24e39596cdef96e1e.JPG",
-    "static/media/img.JPG": "/wedding_inv/static/media/img.804df2aae940d2a7e226.JPG",
     "static/media/IMG_1291.jpg": "/wedding_inv/static/media/IMG_1291.ada4e6efc235c522271d.jpg",
     "static/media/main.png": "/wedding_inv/static/media/main.ada4e6efc235c522271d.png",
     "static/media/bride.JPG": "/wedding_inv/static/media/bride.6043b40ec3335bdd3f4d.JPG",
@@ -54,12 +55,12 @@
     "static/media/white_left.png": "/wedding_inv/static/media/white_left.946d10568a60213e6219.png",
     "static/media/white_right.png": "/wedding_inv/static/media/white_right.a8c1535d7cde491b7135.png",
     "index.html": "/wedding_inv/index.html",
-    "main.8a771099.css.map": "/wedding_inv/static/css/main.8a771099.css.map",
-    "main.614532ef.js.map": "/wedding_inv/static/js/main.614532ef.js.map",
+    "main.2ec554ef.css.map": "/wedding_inv/static/css/main.2ec554ef.css.map",
+    "main.49636d23.js.map": "/wedding_inv/static/js/main.49636d23.js.map",
     "787.4d91e11c.chunk.js.map": "/wedding_inv/static/js/787.4d91e11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a771099.css",
-    "static/js/main.614532ef.js"
+    "static/css/main.2ec554ef.css",
+    "static/js/main.49636d23.js"
   ]
 }
