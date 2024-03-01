@@ -1,7 +1,7 @@
 {
   "name": "weddinginv",
   "version": "0.1.0",
-  "homepage": "https://sinai228.github.io/wedding",
+  "homepage": "https://sinai228.github.io/weddinginv",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",

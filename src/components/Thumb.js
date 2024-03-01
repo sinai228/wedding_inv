@@ -64,8 +64,9 @@ export default function Thumb() {
           modules={[Zoom, FreeMode, Navigation, Thumbs]}
           className="mySwiper"
         >
-          {imageList.map((src, idx) => <SwiperSlide key={idx} className="thumb"><img src={src} alt={idx} /></SwiperSlide>)}
-
+          <div className="padding-50">
+            {imageList.map((src, idx) => <SwiperSlide key={idx} className="thumb"><img src={src} alt={idx} /></SwiperSlide>)}
+          </div>
         </Swiper>
       </>
 

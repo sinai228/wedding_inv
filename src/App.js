@@ -83,11 +83,10 @@ export default function App() {
         backgroundImage: `url(${main})`, height: "95vh"
       }}>
         <div className="padding-50">
-          <p>WEDDING INVITATION</p>
-          <p>  {t('name.groom')} | {t('name.bride')}
-          </p>
+          <text className="invitation">Wedding Invitation</text>
+          {/* <p>  {t('name.groom')} | {t('name.bride')} </p> */}
         </div>
-        <text className="thedate"> May 4th</text>
+        <text className="thedate"> May4th</text>
       </div>
       <header className="navbar">
         <Navbar></Navbar>
@@ -128,13 +127,13 @@ export default function App() {
 
             <CardContent>
               <div className="side">
-                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.groomp')} </Typography>
+                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
                 <Typography level="body-sm" fontSize="2.1vw"
                   textAlign="left"
-                  fontFamily="Jeongnimsaji-R"
+                  fontFamily="GowunDodum"
                 >  {t('name.3')} </Typography>
               </div>
-              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="Jeongnimsaji-R">
+              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="GowunDodum">
                 {t('name.groom')}
               </Typography>
             </CardContent>
@@ -180,13 +179,13 @@ export default function App() {
             <CardContent>
 
               <div className="side">
-                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="Jeongnimsaji-R" > {t('name.bridep')} </Typography>
+                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="GowunDodum" > {t('name.bridep')} </Typography>
                 <Typography level="body-sm" fontSize="2.1vw"
                   textAlign="left"
-                  fontFamily="Jeongnimsaji-R"
+                  fontFamily="GowunDodum"
                 > {t('name.2')} </Typography>
               </div>
-              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="Jeongnimsaji-R">
+              <Typography fontWeight="md" textColor="text.secondary" fontSize="4vw" textAlign="left" fontFamily="GowunDodum">
                 {t('name.bride')}
               </Typography>
             </CardContent>
@@ -237,14 +236,14 @@ export default function App() {
           <img src={ornament2} alt="f3" />
         </div>
 
-        <div className="Dday ">
-          {/* D-{diff}
+        {/* <div className="Dday ">
+          D-{diff}
           <p>until the marriage</p>
           <p> 영락 ♥︎ 시내의 결혼식이 {diff.toString()} 일 남았습니다
-          </p> */}
+          </p>
           <span> {t('dday')}</span>
           {diff}<span> {t('dday2')}</span>
-        </div>
+        </div> */}
       </Fade>
       <Fade bottom delay={400}>
         <div id="gallery" className="gallery ">
@@ -254,7 +253,7 @@ export default function App() {
           <ThumbGallery />
         </div >
       </Fade>
-      <Fade bottom delay={400}>
+      {/* <Fade bottom delay={400}>
         <div id="story" className="story">
           <p> {t('header.story')}</p>
           <button className="readmore">  <li><NavLink activeClass="active"
@@ -263,7 +262,7 @@ export default function App() {
             smooth={true}
             offset={0}
             duration={750}>{t('header.read')}</NavLink></li></button>
-        </div>  </Fade>
+        </div>  </Fade> */}
       <Fade bottom delay={400}>
         <div id="story" className="account">
           <p className="header"> {t('header.accounts')}</p>

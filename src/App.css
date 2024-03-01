@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Petit+Formal+Script&display=swap')
-
-@font-face {
+/* @font-face {
   font-family: "Zeyada-Regular";
   font-weight: normal;
   src: url("./assets/fonts/Zeyada-Regular.ttf") format("truetype");
@@ -33,26 +30,24 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Handletter.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display'); */
+@font-face {
+  font-family: "Petit-Formal-Script";
+  font-weight: normal;
+  src: url("./assets/fonts/PetitFormalScript-Regular.ttf") format("truetype");
 }
 
-
-.gowun-dodum-regular {
-  font-family: "Gowun Dodum", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-} 
-.petit-formal script-regular {
-  font-family: "Petit Formal Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family: "GowunDodum";
+  font-weight: normal;
+  src: url("./assets/fonts/GowunDodum-Regular.ttf") format("truetype");
 }
-
-
 .App {
   text-align: center;
   flex-direction: column;
   /* min-width: 100%; */
-
+font-family: "GowunDodum";
  }
 
 .navbar-container {
@@ -117,7 +112,7 @@
 
 .border p{
    font-family: "Jeongnimsaji-R";
-   color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
    /* position: absolute; */
 }
 
@@ -178,15 +173,22 @@ a:visited {
   margin: auto;
  ;}
 
+ .invitation {
+  font-size: 2.3vw;
+  align-items: center;
+  font-family: 'Petit-Formal-Script';
+  color: black;
+}
+
 .thedate {
-  font-size: 15vw;
+  font-size: 10vw;
   align-items: center;
   /*  font-family: 'Srisakdi', cursive;*/
-  font-family: 'iceJaram-Rg';
+  font-family: 'Petit-Formal-Script';
   opacity: 75%;
   rotate: 38;
   margin-top: 30vh;
-  color: whitesmoke;
+  color: black;
 }
 
 
@@ -198,7 +200,8 @@ a:visited {
   margin-right: auto;
     justify-content: center;
    align-items: center;
-   font-family: "Jeongnimsaji-R";}
+   /* font-family: "Jeongnimsaji-R"; */
+  }
 
 
  .babysbreath img {
@@ -219,7 +222,7 @@ a:visited {
 
 }
 .intro p {
-  font-family: 'Jeongnimsaji-R';
+  /* font-family: 'Jeongnimsaji-R'; */
   font-stretch: 5;
   text-size-adjust: auto;
   letter-spacing: 1.5px;
@@ -254,9 +257,10 @@ a:visited {
   /* object-fit: contain; */
  }
 .banner p {
-   font-family: cursive, fantasy;
-  font-style: italic;
-  font-size: 8vw;
+   /* font-family: cursive, fantasy;
+  font-style: italic; */
+  font-family: "Petit-Formal-Script";
+  font-size: 7vw;
   top: 3vw;
   padding-top: -20px;
   letter-spacing: 3px;
@@ -290,11 +294,14 @@ a:visited {
    **************************/
 .swiper {
   z-index: 0;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  max-height: 100%;
   padding: 15px;
    margin: -19px 5vw  5vw 5vw ;
      /* background: rgb(255, 255, 255); */
+  padding: 10px 13vh ;
+  /* margin: 15vw; */
+  padding-bottom: 10vw;
 
 }
 
@@ -315,10 +322,11 @@ a:visited {
   object-fit: scale-down;
 }
 .swiper {
-  width: 100%;
-  height: 300px;
+  /* width: 100%;
+  height: 300px; */
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .swiper-slide {
@@ -332,31 +340,33 @@ a:visited {
 }
 
 .mySwiper {
-  height: 20%;
+  /* height: 20%; */
   box-sizing: border-box;
   padding: 10px 0;
   margin: 5px;
-  object-fit: scale-down;
-  display: flex;
 
 }
 
 .mySwiper .thumb img {
   width: 100%;
-  max-height: 20vw;
+  max-height: 100px;
  /* max-height: 40px; */
+ margin-bottom: 20vw;
 }
+/*
+.mySwiper .padding-50 {
+  padding: 10vh;
+ } */
 
 .mySwiper .swiper-wrapper {
    align-self: center;
-
+          /* background: rgb(168, 30, 30); */
+  /* ; */
 }
 
 .mySwiper .swiper-slide {
-  width: 15%;
-  /* height: 100%; */
+   /* height: 100%; */
   opacity: 0.3;
-
 }
 
  .mySwiper .swiper-slide-thumb-active {
@@ -365,15 +375,16 @@ a:visited {
 
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   object-fit: cover;
   border-radius: 2px;
   /* object-fit: scale-down; */
+
 }
 
 .story {
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 13vw;
 }
@@ -411,14 +422,14 @@ a:visited {
   text-align: center;
   align-content: center;
   justify-content: center !important;
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
 
 }
 
 .accdetail {
   background-color: white;
   border-radius: 4px;
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
   float: center;
@@ -427,7 +438,7 @@ a:visited {
  .acctext {
   background-color: white;
   border-radius: 4px;
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
   float: left;
@@ -440,13 +451,15 @@ a:visited {
 .acccopy {
   background-color: white;
   border-radius: 4px;
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
+  font-family: "GowunDodum";
+  font-size: smaller;
   color: #666;
   border: 0.4px dotted gray;
   margin: 0 5px;
   padding: 0px 8px;
-align-items:  right;
-float: right;
+  align-items:  right;
+  float: right;
 }
 
 .verse {
@@ -456,7 +469,7 @@ float: right;
 
 }
 .verse p {
-  font-family: 'Jeongnimsaji-R';
+  /* font-family: 'Jeongnimsaji-R'; */
   font-stretch: 5;
   text-size-adjust: auto;
   letter-spacing: 1.5px;
@@ -467,7 +480,7 @@ float: right;
   font-size: 1.9vh;
 }
 .header {
- font-family: "Jeongnimsaji-R";
+ /* font-family: "Jeongnimsaji-R"; */
  font-size: 3vw;
  }
 
@@ -495,7 +508,7 @@ padding-top: 50px;
 
 
 .location p{
-   font-family: "Jeongnimsaji-R";
+   /* font-family: "Jeongnimsaji-R"; */
    font-size: 3vw;
 }
 
@@ -511,15 +524,14 @@ padding-top: 50px;
 }
 
 .copy {
-  background-color: white;
-  border-radius: 4px;
-  padding: 3vw;
+   background-color: white;
+  border-radius: 15px;
+  padding: 0.5vw 2vw;
   border: 3px gray;
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
   font-size: 2.5vw;
-
 }
 
 button {
@@ -527,7 +539,7 @@ button {
   border-radius: 4px;
   padding: 2vw;
   border: 3px gray;
-  font-family: "Jeongnimsaji-R";
+  /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
   font-size: 2.5vw;
