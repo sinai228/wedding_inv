@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 p {
-  margin-left: 15px;
+  margin: 15px;
   font-family: "GowunDodum";
 }
 .navbar li {
