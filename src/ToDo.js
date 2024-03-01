@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 
 import './ToDo.css';
-import Navbar from './components/Header.js';
+import Navbar from './components/Header2.js';
 
 
 
