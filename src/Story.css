@@ -13,8 +13,7 @@
 }
 
 .Story:hover {
-  color: white;
-  text-decoration-color: none;
+   text-decoration-color: white;
 }
 .body p {
   font-family: "GowunDodum";
