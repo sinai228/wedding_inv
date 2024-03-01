@@ -127,8 +127,8 @@ export default function App() {
 
             <CardContent>
               <div className="side">
-                <Typography level="body-sm" fontSize="15px" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
-                <Typography level="body-sm" fontSize="12px"
+                <Typography level="body-sm" fontSize="14px" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
+                <Typography level="body-sm" fontSize="11px"
                   textAlign="left"
                   fontFamily="GowunDodum"
                 >  {t('name.3')} </Typography>
@@ -179,8 +179,8 @@ export default function App() {
             <CardContent>
 
               <div className="side">
-                <Typography level="body-sm" fontSize="15px" textAlign="left" fontFamily="GowunDodum" > {t('name.bridep')} </Typography>
-                <Typography level="body-sm" fontSize="12px"
+                <Typography level="body-sm" fontSize="14px" textAlign="left" fontFamily="GowunDodum" > {t('name.bridep')} </Typography>
+                <Typography level="body-sm" fontSize="11px"
                   textAlign="left"
                   fontFamily="GowunDodum"
                 > {t('name.2')} </Typography>
