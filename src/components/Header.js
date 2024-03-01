@@ -75,7 +75,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={750}>{t('menu.faq')}</NavLink></li>
+              duration={750}>{t('menu.todo')}</NavLink></li>
           </ul>
           {/* <select>
             <option onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}
