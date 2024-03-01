@@ -239,7 +239,7 @@ export default function App() {
             }}>We're getting married!</p>
           </div>
           <div style={{
-            height: '420px'
+            height: '100%'
           }}>
           </div>
           <span className="white"> {t('dday')}
