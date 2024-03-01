@@ -32,7 +32,7 @@ import ornament3 from './assets/bb1.png';
 import calendar from './assets/date.png';
 import bride from './assets/bride.JPG';
 import groom from './assets/groom.jpg';
-import middle from './assets/middle.JPG';
+import middle from './assets/middle.jpg';
 
 
 
@@ -229,8 +229,42 @@ export default function App() {
 
       <Fade bottom delay={400}>
         <div id="home" className="middle_img" style={{
-          backgroundImage: `url(${middle})`, height: '300px'
+          backgroundImage: `url(${middle})`, height: '800px'
         }}>
+          <div className="banner">
+            <p style={{
+              padding: '20px'
+            }}>We're getting married!</p>
+          </div>
+          <div style={{
+            height: '590px'
+          }}>
+          </div>
+          <div className="Dday">
+            <span className="Dday-white"> {t('dday')}</span>
+            {diff}<span className="Dday-white">  {t('dday2')}</span>
+          </div>
+        </div>
+        <div id="home" className="pink" style={{
+          backgroundColor: '#F7E4D7'
+        }}>
+          <br /><br />
+          <text style={{ fontSize: "21px" }}> {t('date')}</text> <br />
+          <text style={{ fontSize: "21px" }}>{t('time')}</text>  <br />
+          <br />
+          <text style={{ fontSize: "13px" }}>{t('wed')} + {t('reception')}</text>  <br /> <br />
+
+          <text style={{ fontSize: "17px", paddingTop: "40px" }}>42693 Dequindre Rd, Troy, MI 48085</text>  <br />
+          <div className="buttons">
+            <button className="pinkcopy"
+              onClick={() => navigator.clipboard.writeText('42693 Dequindre Rd, Troy, MI 48085')}
+            >
+              {t('buttons.copy')}
+            </button>
+            <a href="https://www.google.com/maps/place/Korean+Methodist+Church+of+Detroit/@42.60739,-83.0922078,16.52z/data=!4m6!3m5!1s0x8824c33aef8d50ad:0x9bf673bb297fd077!8m2!3d42.6050043!4d-83.0917879!16s%2Fg%2F1vm_yhqs?entry=ttu" className="visited" rel="noreferrer" target="_blank">
+              <button className="pinkcopy">{t('buttons.map')}</button>
+            </a>
+          </div>
         </div>
         <div className="babysbreath padding-50">
           <img src={ornament2} alt="f3" />
@@ -246,12 +280,16 @@ export default function App() {
         </div> */}
       </Fade>
       <Fade bottom delay={400}>
+        <div
+          style={{ height: "100px" }}></div>
         <div id="gallery" className="gallery ">
-          <div className="banner">
+          {/* <div className="banner">
             <p>we're getting married</p>
-          </div>
+          </div> */}
           <ThumbGallery />
         </div >
+        <div
+          style={{ height: "100px" }}></div>
       </Fade>
       {/* <Fade bottom delay={400}>
         <div id="story" className="story">

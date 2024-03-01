@@ -211,7 +211,8 @@ a:visited {
 
 .intro {
   display: block;
-  background-color: #F5F6F3;
+  /* background-color: #F5F6F3; */
+  background-color: #C5DAE1;
      padding: 10px 40px ;
     margin: 35px
 
@@ -235,10 +236,10 @@ a:visited {
 .Dday {
   font-weight: 800;
   font-size: 4vw;
-  color: #666;
+  color: rgb(255, 255, 255);
   font-style: bold;
   font-family: monospace;
-  opacity: 0.7;
+  opacity: 1;
   z-index: 9999;
   padding: 30px;
 }
@@ -248,19 +249,27 @@ a:visited {
    font-size: 2.5vw;
   color: #666;
   font-family: monospace;
-  opacity: 0.7;
+  opacity: 1;
  }
+
+ .Dday-white{
+   font-weight: 100;
+   font-size: 2.5vw;
+  color: white !important;
+  font-family: "GowonDodum";
+  }
 
  .middle_img {
   max-height: 100%;
   background-size: cover;
   /* object-fit: contain; */
  }
+
 .banner p {
    /* font-family: cursive, fantasy;
   font-style: italic; */
   font-family: "Petit-Formal-Script";
-  font-size: 7vw;
+  font-size: 30px;
   top: 3vw;
   padding-top: -20px;
   letter-spacing: 3px;
@@ -312,6 +321,7 @@ a:visited {
   /* Center slide text vertically */
   display: flex;
   align-self:center;
+
 }
 
 .swiper-slide img {
@@ -320,6 +330,7 @@ a:visited {
   height: 100%;
   /* object-fit: cover; */
   object-fit: scale-down;
+
 }
 .swiper {
   /* width: 100%;
@@ -345,6 +356,7 @@ a:visited {
   padding: 10px 0;
   margin: 5px;
 
+
 }
 
 .mySwiper .thumb img {
@@ -352,14 +364,12 @@ a:visited {
   max-height: 100px;
  /* max-height: 40px; */
  margin-bottom: 20vw;
+
 }
-/*
-.mySwiper .padding-50 {
-  padding: 10vh;
- } */
 
 .mySwiper .swiper-wrapper {
    align-self: center;
+  height: 60px;
           /* background: rgb(168, 30, 30); */
   /* ; */
 }
@@ -518,8 +528,8 @@ padding-top: 50px;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-     justify-content: center;
-   align-items: center;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -533,6 +543,17 @@ padding-top: 50px;
   margin: 10px;
   font-size: 2.5vw;
 }
+
+.pinkcopy {
+  background-color: #F0D0B8;
+  border-radius: 25px;
+  padding: 8px 28px;
+  font-family: "GowunDodum";
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+
 
 button {
   background-color: white;
