@@ -11,6 +11,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import LanguageIcon from '@mui/icons-material/Language';
 import main from './assets/story.JPG';
+import last from './assets/laststory.JPG';
 import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 import './Story.css';
@@ -272,7 +273,7 @@ function Story() {
             </TimelineItem>
             <TimelineItem>
               <TimelineOppositeContent color="text.secondary">
-                <img className="image" src={main} alt="main"></img>
+                <img className="image" src={last} alt="main"></img>
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot />
