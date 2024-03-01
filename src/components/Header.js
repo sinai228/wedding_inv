@@ -50,13 +50,13 @@ const Header = () => {
               offset={0}
               duration={750}  >{t('menu.gallery')}</Link></li> */}
            <li><NavLink activeClass="active"
-              to="/wedding_inv"
+              to="/"
               spy={true}
               smooth={true}
               offset={0}
               duration={750}>{t('menu.totop')}</NavLink></li>
-                <li><NavLink activeClass="active"
-              to="/wedding_inv"
+           <li><NavLink activeClass="active"
+              to="/#gallery"
               spy={true}
               smooth={true}
               offset={0}
