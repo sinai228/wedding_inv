@@ -335,7 +335,7 @@ export default function App() {
               </AccordionSummary>
               <AccordionDetails>
                 <div className="accdetail">
-                  <span>Zelle 6163491228</span>
+                  <span>Zelle®    </span> <span> 6163491228</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('6163491228')}
                   >
@@ -343,7 +343,7 @@ export default function App() {
                   </button>
                 </div>
                 <div className="accdetail">
-                  <span>국민은행 195959595959</span>
+                  <span style={{ fontSize: "11px" }}>국민은행 </span> <span> 6163345735</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('195959595959')}
                   >
@@ -366,7 +366,7 @@ export default function App() {
               </AccordionSummary>
               <AccordionDetails>
                 <div className="accdetail">
-                  <span>Zelle 6163345735</span>
+                  <span>Zelle®</span>   <span>  6163345735</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('6163345735')}
                   >
@@ -374,7 +374,7 @@ export default function App() {
                   </button>
                 </div>
                 <div className="accdetail">
-                  <span className="accdetail">우리은행 123123123</span>
+                  <span style={{ fontSize: "11px" }} >우리은행</span> <span>6163345735</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('123123123')}
                   >

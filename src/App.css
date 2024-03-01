@@ -426,6 +426,7 @@ text-decoration-line: none;
   background-color: #d4e8f0;
   padding: 40px 0 ;
   text-align: center;
+
 }
 .MuiAccordionSummary-content {
   justify-content: center;
@@ -434,16 +435,18 @@ text-decoration-line: none;
 .acc {
   max-width: 300px;
   margin: auto;
-
 }
 
 .accdetail {
   background-color: white;
   border-radius: 4px;
+  font-size: 15px;
   /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
-  float: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
  }
 
  .acctext {
@@ -452,23 +455,25 @@ text-decoration-line: none;
   /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
-  float: left;
- }
+   float: center;
+  flex-direction: center;
+  }
 
  .right{
    right: -20px;
  }
 
 .acccopy {
-  background-color: white;
+  background-color: rgb(243, 189, 189);
   border-radius: 15px;
   /* font-family: "Jeongnimsaji-R"; */
   font-family: "GowunDodum";
-  font-size: 7px;
-  color: #666;
-  border: 0.4px gray; 
-  padding: 3px 8px; 
+  font-size: 9px;
+  color: rgb(250, 250, 250);
+  border: 0.4px gray;
+  padding: 1px 8px;
   float: right;
+  flex-direction: flex-end;
 }
 
 .verse {
