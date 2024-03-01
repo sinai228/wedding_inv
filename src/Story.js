@@ -64,7 +64,7 @@ function Story() {
           <LanguageIcon fontSize="small"  ></LanguageIcon>
         </button>}
       </div>
-  /*    <Fade bottom delay={1000}>*/
+         {/*<Fade bottom delay={1000}>*/}
 
         <div id="" className="body">
           <div id="home" className="middle" style={{
@@ -292,7 +292,7 @@ function Story() {
           </Timeline>
 
         </div>
-      /*</Fade>*/
+{/*</Fade>*/}
       {/* <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
       <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button> */}
       <button onClick={() => handleScrollToTop()}>{t('buttons.totop')}</button>
