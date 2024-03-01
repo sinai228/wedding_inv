@@ -29,7 +29,10 @@ import ornament from './assets/bb.png';
 import ornament2 from './assets/bbb.png';
 import ornament3 from './assets/bb1.png';
 // import calendar from './assets/calendar.png';
-import calendar from './assets/date.png';
+import whiteleft from './assets/white_left.png';
+import whiteright from './assets/white_right.png';
+import calendar from './assets/calendar.jpg';
+// import calendar from './assets/date.png';
 import bride from './assets/bride.JPG';
 import groom from './assets/groom.jpg';
 import middle from './assets/middle.jpg';
@@ -253,12 +256,22 @@ export default function App() {
           backgroundColor: '#F7E4D7'
         }}>
           <br /><br />
+
+           <span id="home" className="decor" style={{
+          backgroundImage: `url(${whiteleft})`, height: '100%' 
+        }}> </span>
+          
           <text style={{ fontSize: "17px" }}> {t('date')}</text> <br />
           <text style={{ fontSize: "17px" }}>{t('time')}</text>  <br />
           <br />
           <text style={{ fontSize: "11px" }}>{t('wed')} + {t('reception')}</text>  <br /> <br />
 
           <text style={{ fontSize: "13px", paddingTop: "40px" }}>42693 Dequindre Rd, Troy, MI 48085</text>  <br />
+
+             <span id="home" className="decor" style={{
+          backgroundImage: `url(${whiteright})`, height: '100%' 
+        }}> </span>
+          
           <div className="buttons">
             <button className="pinkcopy"
               onClick={() => navigator.clipboard.writeText('42693 Dequindre Rd, Troy, MI 48085')}
@@ -270,9 +283,12 @@ export default function App() {
             </a>
           </div>
         </div>
-        <div className="babysbreath padding-50">
+        <div id="home" className="bluecalendar" style={{
+          backgroundImage: `url(${calendar})`, height: '100%' 
+        }}> </div>
+{/*   <div className="babysbreath padding-50">
           <img src={ornament2} alt="f3" />
-        </div>
+        </div> */}
 
         {/* <div className="Dday ">
           D-{diff}
