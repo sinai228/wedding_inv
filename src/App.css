@@ -464,14 +464,13 @@ text-decoration-line: none;
  }
 
 .acccopy {
-  background-color: rgb(243, 189, 189);
+  background-color: #F0D0B8;
   border-radius: 15px;
   /* font-family: "Jeongnimsaji-R"; */
   font-family: "GowunDodum";
   font-size: 9px;
   color: rgb(250, 250, 250);
-  border: 0.4px gray;
-  padding: 1px 8px;
+   padding: 2px 8px;
   float: right;
   flex-direction: flex-end;
 }
