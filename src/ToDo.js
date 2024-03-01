@@ -46,11 +46,11 @@ function ToDo() {
           <Navbar></Navbar>
         </header>
       </header>
-      <Fade bottom delay={1000}>  
+  {/*   <Fade bottom delay={1000}>  */}
 
         <div className="body">
           <div id="home" className="middle" style={{
-            backgroundImage: `url(${main})`, height: '85vw', alignItems: 'center'
+            backgroundImage: `url(${main})`, height: '500px', alignItems: 'center'
           }}>
           </div>
           <div className="padding-10">
@@ -251,7 +251,7 @@ function ToDo() {
 
 
         </div>
-      </Fade>
+       {/*  </Fade>*/}
       {/* <button onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}</button>
       <button onClick={() => i18n.changeLanguage('en')}>{t('buttons.en')}</button> */}
 
