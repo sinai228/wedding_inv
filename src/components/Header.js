@@ -60,7 +60,7 @@ const Header = () => {
               spy={true}
               smooth={true}
               offset={0}
-              duration={750}><a href="#gallery">{t('menu.gallery')}</a></NavLink></li>
+              duration={750}>{t('menu.gallery')}</NavLink></li>
                 
             <li><NavLink activeClass="active"
               to="/story"
