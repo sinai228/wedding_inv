@@ -70,12 +70,12 @@ const Header = () => {
               smooth={true}
               offset={0}
               duration={750}>{t('menu.more')}</Link></li>*/}
-            <li><NavLink activeClass="active"
+            {/*  <li><NavLink activeClass="active"
               to="/todo"
               spy={true}
               smooth={true}
               offset={0}
-              duration={750}>{t('menu.todo')}</NavLink></li>
+              duration={750}>{t('menu.todo')}</NavLink></li>*/}
           </ul>
           {/* <select>
             <option onClick={() => i18n.changeLanguage('kr')}>{t('buttons.kr')}
