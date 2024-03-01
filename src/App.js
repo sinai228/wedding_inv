@@ -280,9 +280,10 @@ export default function App() {
             </a>
           </div>
         </div>
-        <div id="home" className="bluecalendar" style={{
-          backgroundImage: `url(${calendar})`, height: '100%'
+        <div className="bluecalendar" style={{
+          backgroundImage: `url(${calendar})`, height: '200px'
         }}> </div>
+
         {/*   <div className="babysbreath padding-50">
           <img src={ornament2} alt="f3" />
         </div> */}

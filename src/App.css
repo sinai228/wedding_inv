@@ -278,6 +278,11 @@ a:visited {
   #pink-row {
     flex-direction: row;
   }
+
+  .bluecalendar {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .gallery {
   background-color: #ffffff;
   /* background-color: black; */
