@@ -59,7 +59,7 @@ export default function Thumb() {
           // onSwiper={setThumbsSwiper}
           onSwiper={setThumbs}
           spaceBetween={6}
-          slidesPerView={5}
+          slidesPerView={4}
           freeMode={true}
           modules={[Zoom, FreeMode, Navigation, Thumbs]}
           className="mySwiper"

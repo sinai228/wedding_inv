@@ -212,7 +212,7 @@ a:visited {
 .intro {
   display: block;
   /* background-color: #F5F6F3; */
-  background-color: #C5DAE1;
+  background-color: #c6dde7;
      padding: 10px 40px ;
     margin: 35px
 
@@ -235,29 +235,24 @@ a:visited {
 }
 .Dday {
   font-weight: 800;
-  font-size: 4vw;
+  font-size: 22px;
   color: rgb(255, 255, 255);
   font-style: bold;
-  font-family: monospace;
-  opacity: 1;
-  z-index: 9999;
-  padding: 30px;
+  font-family: "monospace" !important;
+  opacity: 0.9;
+   /* padding: 30px; */
 }
-
+/*
 .Dday span{
-   font-weight: 100;
-   font-size: 2.5vw;
+    font-size: 20px;
   color: #666;
-  font-family: monospace;
-  opacity: 1;
- }
+   opacity: 1;
+    font-family: "GowonDodum"  !important;
+} */
 
- .Dday-white{
-   font-weight: 100;
-   font-size: 2.5vw;
+ .white{
   color: white !important;
-  font-family: "GowonDodum";
-  }
+   }
 
  .middle_img {
   max-height: 100%;
@@ -272,7 +267,7 @@ a:visited {
   font-size: 30px;
   top: 3vw;
   padding-top: -20px;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   z-index: 100;
   position: relative;
 }
@@ -281,7 +276,7 @@ a:visited {
   background-color: #ffffff;
   /* background-color: black; */
   z-index: 0;
-  padding:  0px 1vw  ;
+  padding:  0px 30px ;
    font-family: 'Handletter';
   font-size: 40px;
   flex-direction: row;
@@ -303,7 +298,7 @@ a:visited {
    **************************/
 .swiper {
   z-index: 0;
-  width: 70%;
+  width: 80%;
   max-height: 100%;
   padding: 15px;
    margin: -19px 5vw  5vw 5vw ;
@@ -355,7 +350,6 @@ a:visited {
   box-sizing: border-box;
   padding: 10px 0;
   margin: 5px;
-
 
 }
 
@@ -547,13 +541,22 @@ padding-top: 50px;
 .pinkcopy {
   background-color: #F0D0B8;
   border-radius: 25px;
-  padding: 8px 28px;
+  padding: 6px 26px;
   font-family: "GowunDodum";
   color: rgb(255, 255, 255);
   margin-bottom: 30px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
+.copylink {
+  background-color: #F0D0B8;
+  border-radius: 25px;
+  padding: 6px 26px;
+  font-family: "GowunDodum";
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  font-size: 11px;
+}
 
 button {
   background-color: white;
