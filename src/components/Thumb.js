@@ -1,7 +1,7 @@
 // import Fade from 'react-reveal/Fade';
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Navigation, Thumbs, Zoom } from 'swiper/modules';
+import { FreeMode, Navigation, Thumbs, Zoom  , Pagination } from 'swiper/modules'; 
 // import SwiperClass from 'swiper/types/swiper-class';
 // Import Swiper styles
 import 'swiper/css';
@@ -40,11 +40,14 @@ export default function Thumb() {
           }}
           spaceBetween={10}
           loop={true}
-          navigation={true}
+          //navigation={true}
           zoom={true}
+         pagination={{
+                dynamicBullets: true,
+              }} 
           // thumbs={{ swiper: thumbsSwiper }}
           thumbs={{ swiper: thumbs && !thumbs.destroyed ? thumbs : null }}
-          modules={[Zoom, Navigation, Thumbs]}
+          modules={[Zoom, Pagination, Thumbs]}
           className="mySwiper2"
         >
 
