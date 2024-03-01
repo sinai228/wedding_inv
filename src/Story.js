@@ -240,7 +240,7 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>01.12.2023
+              <TimelineContent>01.12.2024
              <p>{t('story.t11')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
@@ -261,7 +261,7 @@ function Story() {
                 <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>01.19.2023
+              <TimelineContent>01.19.2024
              <p>{t('story.t12')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
@@ -279,7 +279,7 @@ function Story() {
                 <TimelineDot />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent>05.04.2023
+              <TimelineContent>05.04.2024
              <p>{t('story.t13')}</p>
                 <div className="half">
                   <span className="youngrak">{t('story.he')}: </span>
