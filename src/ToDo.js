@@ -65,7 +65,8 @@ function ToDo() {
                   What is the timeline for the day?
         </AccordionSummary>
                 <AccordionDetails>
-                  <p>Ceremony will start at 11:30am. After the ceremony, we'll have some group photos, and guests can drive over to the reception place (about 15 minutes away) where lunch will be served around 1pm. Reception will end at 3pm. Please come to the venue at least 30 minutes prior to the official ceremony start time so everyone can get settled before the proceedings begin.
+                  <p>Ceremony will start at 11:30am. After the ceremony, guests can drive over to the reception place (about 15 minutes away) where lunch will be served around 1pm.   </p>
+                   <p>  Please come to the venue at least 30 minutes prior to the official ceremony start time so everyone can get settled before the proceedings begin.
                 </p></AccordionDetails>
               </Accordion>
               <Accordion>
@@ -91,7 +92,7 @@ function ToDo() {
                   Can I bring a plus one?
         </AccordionSummary>
                 <AccordionDetails>
-                  <p>Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! We’re looking forward to celebrating with you soon, though!
+                  <p>Unfortunately, we are at capacity and cannot accommodate more guests on the big day, so please accept our sincere apologies! 
                 </p></AccordionDetails>
               </Accordion>
               {/* <Accordion>
@@ -116,7 +117,7 @@ function ToDo() {
                   Will the ceremony be held in English?
                  </AccordionSummary>
                 <AccordionDetails>
-                  <p>Unfortunately, the ceremony will be held in Korean. We would still love it if you could come to celebrate with us on our special day!
+                  <p>No, the ceremony will be held in Korean. 
                 </p></AccordionDetails>
               </Accordion>
               <Accordion>
@@ -140,7 +141,7 @@ function ToDo() {
                   How do I RSVP?
                  </AccordionSummary>
                 <AccordionDetails>
-                  <p>We sure hope you'll be able to join us for your special day. Please RSVP by 3/4/24 by letting either the bride/groom know.
+                  <p>Please RSVP by 3/8/24 by letting either the bride/groom know.
                 </p></AccordionDetails>
               </Accordion>
               <Accordion>
@@ -152,7 +153,7 @@ function ToDo() {
                   I don't think I can make it. Can I attend via online?
         </AccordionSummary>
                 <AccordionDetails>
-                  <p>Yes, we will be broadcasting the ceremony live via Youtube. Please join us if you're abroad in South Korea, Indonesia, or in any other states in the USA.
+                  <p>Yes, we will be broadcasting the ceremony live via Youtube.   </p><p>Please join us if you're abroad in South Korea, Indonesia, or in any other states in the USA.
                 </p></AccordionDetails>
               </Accordion>
               <Accordion>
@@ -164,7 +165,7 @@ function ToDo() {
                   Will food be served?
                  </AccordionSummary>
                 <AccordionDetails>
-                  <p>Yes, lunch will be served from 1pm. Please eat breakfast before you come, so you don't end up hangry
+                  <p>Yes, lunch will be served from 1pm. Please eat breakfast before you come, so you don't end up hangry:D
                  </p></AccordionDetails>
               </Accordion>
               <Accordion>
@@ -188,7 +189,7 @@ function ToDo() {
                   Is it an open bar?
                  </AccordionSummary>
                 <AccordionDetails>
-                  <p>There will be a cash bar at the reception so please plan on bringing cash if you'd like.
+                  <p> No, there won't be an open bar.
                 </p></AccordionDetails>
               </Accordion>
               <Accordion>
