@@ -80,7 +80,7 @@ export default function App() {
 
       {/* <img className="main" src={main} alt="image" /> */}
       <div id="home" className="border" style={{
-        backgroundImage: `url(${main})`, height: "700px"
+        backgroundImage: `url(${main})`, height: "800px"
       }}>
         <div className="padding-50">
           <text className="invitation">Wedding Invitation</text>
