@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_inv/static/css/main.069cffb8.css",
-    "main.js": "/wedding_inv/static/js/main.fa92f99e.js",
+    "main.css": "/wedding_inv/static/css/main.b9c762f4.css",
+    "main.js": "/wedding_inv/static/js/main.e3e40f9d.js",
     "static/js/787.4d91e11c.chunk.js": "/wedding_inv/static/js/787.4d91e11c.chunk.js",
     "static/media/GowunDodum-Regular.ttf": "/wedding_inv/static/media/GowunDodum-Regular.39c9a39c246c3c54c53e.ttf",
     "static/media/image10.png": "/wedding_inv/static/media/image10.41eac39517e02b322f21.png",
@@ -39,6 +39,7 @@
     "static/media/image8.png": "/wedding_inv/static/media/image8.13be4abb67b238062fc3.png",
     "static/media/IMG_1235.jpg": "/wedding_inv/static/media/IMG_1235.81aaf21dd3bbeed54365.jpg",
     "static/media/middle.jpg": "/wedding_inv/static/media/middle.1900000e90b499834cc8.jpg",
+    "static/media/calendar.jpg": "/wedding_inv/static/media/calendar.8f79946e88b6db497d1d.jpg",
     "static/media/RNI-Films-IMG-D8AAF2AF-E4B4-4960-A3A9-901E7F65AA77.JPG": "/wedding_inv/static/media/RNI-Films-IMG-D8AAF2AF-E4B4-4960-A3A9-901E7F65AA77.76d24e39596cdef96e1e.JPG",
     "static/media/story.JPG": "/wedding_inv/static/media/story.76d24e39596cdef96e1e.JPG",
     "static/media/img.JPG": "/wedding_inv/static/media/img.804df2aae940d2a7e226.JPG",
@@ -50,14 +51,15 @@
     "static/media/bbb.png": "/wedding_inv/static/media/bbb.74f70ca82e4508b02268.png",
     "static/media/bb.png": "/wedding_inv/static/media/bb.1a040b2634c1d0b93ba6.png",
     "static/media/groom.jpg": "/wedding_inv/static/media/groom.8cfdd2cfc1cfb7781a4f.jpg",
-    "static/media/date.png": "/wedding_inv/static/media/date.e52b649257dd1b2b0318.png",
+    "static/media/white_left.png": "/wedding_inv/static/media/white_left.946d10568a60213e6219.png",
+    "static/media/white_right.png": "/wedding_inv/static/media/white_right.a8c1535d7cde491b7135.png",
     "index.html": "/wedding_inv/index.html",
-    "main.069cffb8.css.map": "/wedding_inv/static/css/main.069cffb8.css.map",
-    "main.fa92f99e.js.map": "/wedding_inv/static/js/main.fa92f99e.js.map",
+    "main.b9c762f4.css.map": "/wedding_inv/static/css/main.b9c762f4.css.map",
+    "main.e3e40f9d.js.map": "/wedding_inv/static/js/main.e3e40f9d.js.map",
     "787.4d91e11c.chunk.js.map": "/wedding_inv/static/js/787.4d91e11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.069cffb8.css",
-    "static/js/main.fa92f99e.js"
+    "static/css/main.b9c762f4.css",
+    "static/js/main.e3e40f9d.js"
   ]
 }
