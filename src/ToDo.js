@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 import Fade from 'react-reveal/Fade';
 
 import './ToDo.css';
+import Navbar from './components/Header.js';
 
 
 
@@ -41,33 +42,11 @@ function ToDo() {
   return (
     <div className="FAQ" >
       <header className={classes}>
-        <header className="navbar">
-          <ul>
-            <li><NavLink activeClass="active"
-              to="/" >{t('menu.totop')}</NavLink></li>
-            <li><NavLink activeClass="active"
-              to="/story" >{t('menu.story')}</NavLink></li>
-            <li><a href="https://www.amazon.com/wedding/share/youngraksinai"
-              rel="noreferrer" className="visited" target="_blank">{t('menu.reg')}</a></li>
-            <li><NavLink activeClass="active"
-              to="/todo" >{t('menu.todo')}</NavLink></li>
-            {/* Simple locale switcher */}
-            {/* <button onClick={() => i18n.changeLanguage("en-US")}>
-              ENG
-        </button>
-            <button onClick={() => i18n.changeLanguage("kr-KR")}>
-              KOR
-        </button> */}
-            {/*
-            <select name="lang" id="lang">
-              <option value="en-US">{t('buttons.en')}</option>
-              <option value="kr">{t('buttons.kr')}</option>
-            </select> */}
-
-          </ul>
+         <header className="navbar">
+          <Navbar></Navbar>
         </header>
       </header>
-      <Fade bottom delay={1000}>
+      <Fade bottom delay={1000}>  
 
         <div className="body">
           <div id="home" className="middle" style={{
