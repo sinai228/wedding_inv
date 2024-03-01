@@ -329,9 +329,9 @@ export default function App() {
                   </button>
                 </div>
                 <div className="accdetail">
-                  <span>국민은행 123123123</span>
+                  <span>국민은행 195959595959</span>
                   <button className="acccopy"
-                    onClick={() => navigator.clipboard.writeText('123123123')}
+                    onClick={() => navigator.clipboard.writeText('195959595959')}
                   >
                     {t('buttons.cop')}
                   </button>
@@ -359,14 +359,14 @@ export default function App() {
                     {t('buttons.cop')}
                   </button>
                 </div>
-                {/* <div className="accdetail">
-                  <span className="accdetail">국민은행 123123123</span>
+                <div className="accdetail">
+                  <span className="accdetail">우리은행 123123123</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('123123123')}
                   >
                     {t('buttons.cop')}
                   </button>
-                </div> */}
+                </div> 
               </AccordionDetails>
             </Accordion>
 
@@ -426,7 +426,7 @@ export default function App() {
       <footer>
         <div>
           <button className="copylink"
-            onClick={() => navigator.clipboard.writeText('https://sinai228.github.io/wedding/')}
+            onClick={() => navigator.clipboard.writeText('https://sinai228.github.io/wedding_inv/')}
           >
             {t('buttons.copylink')}
           </button></div>
