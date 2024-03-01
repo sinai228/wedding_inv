@@ -259,11 +259,9 @@ a:visited {
    /* font-family: cursive, fantasy;
   font-style: italic; */
   font-family: "Petit-Formal-Script";
-  font-size: 25px;
-   padding-top: 50px;
-  /* letter-spacing: 3px; */
-  z-index: 100;
-  position: relative;
+  font-size: 23px;
+  padding-top: 50px;
+ 
 }
 
 .gallery {
