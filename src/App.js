@@ -83,7 +83,7 @@ export default function App() {
 
       {/* <img className="main" src={main} alt="image" /> */}
       <div id="home" className="border" style={{
-        backgroundImage: `url(${main})`, height: "800px"
+        backgroundImage: `url(${main})`
       }}>
         <div className="padding-50">
           <text className="invitation">Wedding Invitation</text>
@@ -234,7 +234,7 @@ export default function App() {
 
       <Fade bottom delay={400}>
         <div id="home" className="middle_img" style={{
-          backgroundImage: `url(${middle})`, height: '100%' 
+          backgroundImage: `url(${middle})`, height: '490px'
         }}>
           <div className="banner">
             <p style={{
@@ -242,36 +242,33 @@ export default function App() {
             }}>We're getting married!</p>
           </div>
           <div style={{
-            height: '100%'
-          }}>
-          </div>
+            height: '300px'
+          }}>    </div>
           <span className="white"> {t('dday')}
             <span className="Dday">{diff}</span>
             {t('dday2')}</span>
-          {/* <div className="Dday-white">
-            <span > {t('dday')} {diff} {t('dday2')}</span>
-          </div> */}
+
         </div>
-        <div id="home" className="pink" style={{
+        <div style={{
           backgroundColor: '#F7E4D7'
         }}>
-          <br /><br />
 
-           <span id="home" className="decor" style={{
-          backgroundImage: `url(${whiteleft})`, height: '100%' 
-        }}> </span>
-          
-          <text style={{ fontSize: "17px" }}> {t('date')}</text> <br />
-          <text style={{ fontSize: "17px" }}>{t('time')}</text>  <br />
-          <br />
-          <text style={{ fontSize: "11px" }}>{t('wed')} + {t('reception')}</text>  <br /> <br />
+          <div id="pink-row" className="pink">
+            <div className="decor">
+              <img src={whiteleft} alt="f0" />
+            </div >
+            <div>
+              <text style={{ fontSize: "17px" }}> {t('date')}</text> <br />
+              <text style={{ fontSize: "17px" }}>{t('time')}</text>  <br />
+              <br />
+              <text style={{ fontSize: "11px" }}>{t('wed')} + {t('reception')}</text>  <br />
 
-          <text style={{ fontSize: "13px", paddingTop: "40px" }}>42693 Dequindre Rd, Troy, MI 48085</text>  <br />
-
-             <span id="home" className="decor" style={{
-          backgroundImage: `url(${whiteright})`, height: '100%' 
-        }}> </span>
-          
+              <text style={{ fontSize: "13px" }}>42693 Dequindre Rd, Troy, MI 48085</text>
+            </div>
+            <div className="decor">
+              <img src={whiteright} alt="f0" />
+            </div >
+          </div>
           <div className="buttons">
             <button className="pinkcopy"
               onClick={() => navigator.clipboard.writeText('42693 Dequindre Rd, Troy, MI 48085')}
@@ -284,9 +281,9 @@ export default function App() {
           </div>
         </div>
         <div id="home" className="bluecalendar" style={{
-          backgroundImage: `url(${calendar})`, height: '100%' 
+          backgroundImage: `url(${calendar})`, height: '100%'
         }}> </div>
-{/*   <div className="babysbreath padding-50">
+        {/*   <div className="babysbreath padding-50">
           <img src={ornament2} alt="f3" />
         </div> */}
 
@@ -382,7 +379,7 @@ export default function App() {
                   >
                     {t('buttons.cop')}
                   </button>
-                </div> 
+                </div>
               </AccordionDetails>
             </Accordion>
 
