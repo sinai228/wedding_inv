@@ -127,7 +127,7 @@ export default function App() {
 
             <CardContent>
               <div className="side">
-                <Typography level="body-sm" fontSize="2.8vw" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
+                <Typography level="body-sm" fontSize="20px" textAlign="left" fontFamily="GowunDodum" > {t('name.groomp')} </Typography>
                 <Typography level="body-sm" fontSize="2.1vw"
                   textAlign="left"
                   fontFamily="GowunDodum"
@@ -213,7 +213,7 @@ export default function App() {
       <div id="" className="intro">
 
         <div className="babysbreath">
-          <img src={ornament} alt="f1" />
+          <img src={ornament2} alt="f1" />
         </div>
         <Fade bottom delay={400}>
           <div className="keep">
@@ -225,7 +225,7 @@ export default function App() {
           </div>
         </Fade>
         <div className="babysbreath">
-          <img src={ornament} alt="f2" />
+          <img src={ornament2} alt="f2" />
         </div>
       </div>
 
@@ -307,8 +307,8 @@ export default function App() {
         </div>  </Fade>
       <Fade bottom delay={400}>
         <div id="story" className="account">
-          <p className="header"> {t('header.accounts')}</p>
-          <p>♥︎</p>
+          <p className="header"> {t('header.accounts')}   </p><br />
+          <p className="header">  <text>♥︎</text> </p><br />
           <div className="acc" >
             <Accordion className="accname" style={{ marginBottom: "15px", alignItems: "center", borderRadius: "15px" }}>
               <AccordionSummary
@@ -372,7 +372,7 @@ export default function App() {
 
           </div>
         </div>
-      </Fade>
+      </Fade >
       <Fade bottom delay={700}>
         <div className="verse">
           <div className="babysbreath">

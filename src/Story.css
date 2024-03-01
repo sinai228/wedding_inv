@@ -1,74 +1,44 @@
-@font-face {
-  font-family: "Zeyada-Regular";
-  font-weight: normal;
-  src: url("./assets/fonts/Zeyada-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Allura-Regular";
-  font-weight: normal;
-  src: url("./assets/fonts/Allura-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Jeongnimsaji-R";
-  font-weight: normal;
-  src: url("./assets/fonts/Jeongnimsaji-R.ttf") format("truetype");
-}
-@font-face {
-  font-family: "강원교육현옥샘";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/강원교육현옥샘.ttf") format("truetype");
-}
-@font-face {
-    font-family: 'omyu_pretty';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'OG_Renaissance_Secret-Rg';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/OG_Renaissance_Secret-Rg.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
-    font-family: 'OG_Renaissance_Secret-Rg';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "GowunDodum";
+  font-weight: normal;
+  src: url("./assets/fonts/GowunDodum-Regular.ttf") format("truetype");
 }
 .Story {
   text-align: center;
   flex-direction: column;
-  /* font-family: "InkLipquid"; */
+  font-family: "GowunDodum";
+  word-break: keep-all;
+    word-wrap: normal;
 }
 
 .body p {
-    font-family: "InkLipquid";
-  font-size: 2vw;
+  font-family: "GowunDodum";
+  font-size: 13px;
 }
 
 .side {
-  font-size: 1.5vw;
+  font-size: 12px;
 }
 
 .padding-10 {
     padding: 20px;
 }
 
+
 .half {
   flex-direction: row;
-  width: 33vw;
-  font-size: 1.5vw;
+  width: 100%;
+  font-size: 9px;
   padding: 3px;
+    font-family: "GowunDodum";
 }
 
 .reg {
-    font-family: "omyu_pretty";
-     font-size: .5rem;
-    line-height: 1.5;
-    letter-spacing: 0.01em;
+  font-family: "GowunDodum";
+    font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 
     /* flex: 1; */
     /* padding: 6px 10px; */

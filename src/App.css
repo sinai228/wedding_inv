@@ -174,14 +174,14 @@ a:visited {
  ;}
 
  .invitation {
-  font-size: 2.3vw;
+  font-size: 13px;
   align-items: center;
   font-family: 'Petit-Formal-Script';
   color: black;
 }
 
 .thedate {
-  font-size: 10vw;
+  font-size: 70px;
   align-items: center;
   /*  font-family: 'Srisakdi', cursive;*/
   font-family: 'Petit-Formal-Script';
@@ -206,15 +206,15 @@ a:visited {
 
  .babysbreath img {
   max-width: 100px;
-  width: 8vh;
+  width: 50px;
 }
 
 .intro {
   display: block;
   /* background-color: #F5F6F3; */
-  background-color: #c6dde7;
-     padding: 10px 40px ;
-    margin: 35px
+  background-color: #d4e8f0;
+  padding: 30px 50px ;
+  margin: 35px
 
 }
 
@@ -419,20 +419,16 @@ text-decoration-line: none;
 .account {
   display: block;
   background-color: #ecf1e3;
-  padding: 4vh 0 ;
+  padding: 40px 0 ;
   text-align: center;
 }
 .MuiAccordionSummary-content {
   justify-content: center;
-  margin-left:20px;
-}
+/* margin-left: -20px; */
+ }
 .acc {
-  width: 75vw;
+  max-width: 300px;
   margin: auto;
-  text-align: center;
-  align-content: center;
-  justify-content: center !important;
-  /* font-family: "Jeongnimsaji-R"; */
 
 }
 
@@ -487,11 +483,13 @@ text-decoration-line: none;
   /* margin-top: 50px;
   margin-bottom: 50px; */
   color: rgb(93, 97, 93);
-  font-size: 1.9vh;
+  font-size: 13px
 }
 .header {
  /* font-family: "Jeongnimsaji-R"; */
- font-size: 3vw;
+ font-size: 15px;
+   margin: auto;
+
  }
 
  .padding-top {
@@ -504,7 +502,7 @@ padding-top: 50px;
   padding-bottom: 0px;
 }
 .calendar {
-  width: 65vw;
+  width: 100%;
   padding: 5px;
 }
 
@@ -519,7 +517,7 @@ padding-top: 50px;
 
 .location p{
    /* font-family: "Jeongnimsaji-R"; */
-   font-size: 3vw;
+   font-size: 13px;
 }
 
 .buttons{
@@ -530,7 +528,6 @@ padding-top: 50px;
   margin-right: auto;
   justify-content: center;
   align-items: center;
-
 }
 
 .copy {
@@ -541,7 +538,7 @@ padding-top: 50px;
   /* font-family: "Jeongnimsaji-R"; */
   color: #666;
   margin: 10px;
-  font-size: 2.5vw;
+  font-size: 13px;
 }
 
 .pinkcopy {
@@ -569,10 +566,10 @@ button {
   border-radius: 4px;
   padding: 2vw;
   border: 3px gray;
-  /* font-family: "Jeongnimsaji-R"; */
-  color: #666;
+   color: #666;
   margin: 10px;
-  font-size: 2.5vw;
+  font-size: 13px;
+  font-family: "GowunDodum";
 
 }
 

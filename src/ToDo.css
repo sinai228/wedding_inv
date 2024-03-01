@@ -18,12 +18,20 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+  font-family: "GowunDodum";
+  font-weight: normal;
+  src: url("./assets/fonts/GowunDodum-Regular.ttf") format("truetype");
+}
 .FAQ {
     text-align: center;
   flex-direction: column;
 }
 p {
   margin-left: 15px;
+  font-family: "GowunDodum";
 }
 
 .middle {

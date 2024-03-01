@@ -49,12 +49,12 @@ const Header = () => {
               smooth={true}
               offset={0}
               duration={750}  >{t('menu.gallery')}</Link></li>
-            {/* <li><NavLink activeClass="active"
+            <li><NavLink activeClass="active"
               to="/story"
               spy={true}
               smooth={true}
               offset={0}
-              duration={750}>{t('menu.story')}</NavLink></li> */}
+              duration={750}>{t('menu.story')}</NavLink></li>
             {/* <li><Link activeClass="active"
               to="https://www.zola.com/wedding-registry"
               spy={true}
