@@ -231,7 +231,7 @@ export default function App() {
 
       <Fade bottom delay={400}>
         <div id="home" className="middle_img" style={{
-          backgroundImage: `url(${middle})`, height: '630px', flex: 1, flexDirection: 'column', alignItems: 'flex-end'
+          backgroundImage: `url(${middle})`, height: '730px', alignItems: 'right'
         }}>
           <div className="banner">
             <p style={{
