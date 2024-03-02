@@ -269,13 +269,13 @@ a:visited {
 
 .pink{
    display: flex;
-    align-items: center;
+  align-items: center;
    justify-content: center;
 
  }
-  #pink-row {
+  /* #pink-row {
     flex-direction: row;
-  }
+  } */
 
   .bluecalendar {
     background-repeat: no-repeat;
@@ -530,7 +530,7 @@ padding-top: 50px;
 .buttons{
   /* flex-direction: row; */
   display: flex;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
