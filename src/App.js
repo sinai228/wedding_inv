@@ -343,9 +343,9 @@ export default function App() {
                   </button>
                 </div>
                 <div className="accdetail">
-                  <span style={{ fontSize: "11px" }}>국민은행 </span> <span> 6163345735</span>
+                  <span style={{ fontSize: "11px" }}농협은행 </span> <span>210-12-144021</span>
                   <button className="acccopy"
-                    onClick={() => navigator.clipboard.writeText('195959595959')}
+                    onClick={() => navigator.clipboard.writeText('210-12-144021')}
                   >
                     {t('buttons.cop')}
                   </button>
@@ -374,9 +374,9 @@ export default function App() {
                   </button>
                 </div>
                 <div className="accdetail">
-                  <span style={{ fontSize: "11px" }} >우리은행</span> <span>6163345735</span>
+                  <span style={{ fontSize: "11px" }} >우리은행</span> <span>270073651-02-003</span>
                   <button className="acccopy"
-                    onClick={() => navigator.clipboard.writeText('123123123')}
+                    onClick={() => navigator.clipboard.writeText('270073651-02-003')}
                   >
                     {t('buttons.cop')}
                   </button>
