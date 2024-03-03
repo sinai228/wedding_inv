@@ -343,7 +343,7 @@ export default function App() {
                   </button>
                 </div>
                 <div className="accdetail">
-                  <span style={{ fontSize: "11px" }}농협은행 </span> <span>210-12-144021</span>
+                  <span style={{ fontSize: "11px" }}> 농협은행 </span> <span>210-12-144021</span>
                   <button className="acccopy"
                     onClick={() => navigator.clipboard.writeText('210-12-144021')}
                   >
